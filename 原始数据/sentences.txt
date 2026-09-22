@@ -1,0 +1,544 @@
+# 句子关例句。一行一句，格式： 单词 | 英文句子（句子里的那个词会被挖空） | 中文意思
+# 三道关由 _sent_work.py check 跑：词必现 / 不超纲 / 空缺唯一。改完就跑一遍。
+# --- 三年级 ---
+ah | Ah, I see it now. | 啊，我现在看见了。
+bye | Bye! See you on Monday. | 再见！周一见。
+cat | The cat is on the chair. | 猫在椅子上。
+class | Our class has twenty students. | 我们班有二十个学生。
+goodbye | Goodbye! It is time to go home. | 再见！该回家了。
+guess | Guess what! I have a new pen. | 猜猜看！我有一支新钢笔。
+hello | Hello! My name is Tom. | 你好！我叫汤姆。
+hi | Hi! I am Amy. | 嗨！我是艾米。
+long | The ruler is long. | 尺子很长。
+Miss | Miss Li is kind. | 李老师很和蔼。
+pen | This is my pen. | 这是我的钢笔。
+pencil | My pencil is in the pencil case. | 我的铅笔在铅笔盒里。
+pencil case | My pencil case is blue. | 我的铅笔盒是蓝色的。
+put | Put the book on the desk. | 把书放在桌子上。
+rubber | Can I use your rubber? | 我能用一下你的橡皮吗？
+ruler | I have a new ruler. | 我有一把新尺子。
+school | I go to school every day. | 我每天去上学。
+schoolbag | My schoolbag is heavy. | 我的书包很重。
+blackboard | Clean the blackboard, please. | 请擦黑板。
+boy | The boy is my friend. | 那个男孩是我的朋友。
+chair | Sit on the chair, please. | 请坐在椅子上。
+classroom | Our classroom is big. | 我们的教室很大。
+close | Close the window, please. | 请关上窗户。
+desk | My desk is tidy. | 我的书桌很整洁。
+dirty | My hands are dirty. | 我的手很脏。
+floor | The floor is dirty. | 地板很脏。
+girl | The girl is my sister. | 那个女孩是我妹妹。
+keep | Keep your desk tidy. | 保持你的书桌整洁。
+let | Let me help you. | 让我来帮你。
+Mr | Mr Green is our teacher. | 格林先生是我们的老师。
+name | My name is Ben. | 我叫本。
+put away | Put away your books, please. | 请把你的书收好。
+sweep | I sweep the floor after class. | 下课后我扫地。
+window | Open the window, please. | 请打开窗户。
+eat | I eat an apple every day. | 我每天吃一个苹果。
+excuse me | Excuse me, where is the library? | 打扰一下，图书馆在哪里？
+follow | Follow me, please. | 请跟我来。
+fun | Playing ball is fun. | 玩球很好玩。
+ha | Ha! That is a big fish. | 哈！那是条大鱼。
+late | Do not be late for school. | 上学不要迟到。
+library | The library is quiet. | 图书馆很安静。
+look at | Look at the blackboard, please. | 请看黑板。
+look out of | Look out of the window. | 往窗外看。
+Mrs | Mrs Brown is my teacher. | 布朗太太是我的老师。
+oh | Oh, the bus is late. | 哦，公交车晚了。
+quiet | Please be quiet in the library. | 在图书馆请保持安静。
+right | You are right. | 你是对的。
+rule | Follow the rule, please. | 请遵守规则。
+run | I can run fast. | 我跑得快。
+shh | Shh! Be quiet. | 嘘！安静。
+shout | Do not shout in the library. | 不要在图书馆大喊。
+sit down | Sit down, please. | 请坐下。
+sorry | I am sorry. | 对不起。
+sweet | I have a sweet for you. | 我有一颗糖给你。
+talk | Do not talk in class. | 上课不要讲话。
+twin | She is my twin. | 她是我的双胞胎姐妹。
+after class | We play after class. | 下课后我们玩。
+Art Club | I am in the Art Club. | 我参加了美术社团。
+beautiful | The flower is beautiful. | 这朵花很美。
+behind | The cat is behind the door. | 猫在门后面。
+break time | We play ball at break time. | 课间休息时我们玩球。
+butterfly | The butterfly is on the flower. | 蝴蝶在花上。
+duck | The duck can swim. | 鸭子会游泳。
+far | The school is far. | 学校很远。
+find | I can not find my pen. | 我找不到我的钢笔。
+flower | I like the red flower. | 我喜欢那朵红花。
+friend | She is my good friend. | 她是我的好朋友。
+garden | The garden is big. | 花园很大。
+go | Let us go to the zoo. | 我们去动物园吧。
+good | This book is good. | 这本书很好。
+have fun | We have fun together. | 我们一起玩得很开心。
+many | There are many books here. | 这里有很多书。
+nice | The dress is nice. | 这条连衣裙很漂亮。
+outside | The dog is outside. | 狗在外面。
+plane | The plane is in the sky. | 飞机在天上。
+play | I play with my sister. | 我和妹妹一起玩。
+ready | Are you ready? | 你准备好了吗？
+student | I am a student. | 我是一名学生。
+tree | The bird is in the tree. | 鸟在树上。
+apple | This apple is sweet. | 这个苹果很甜。
+baby | The baby is small. | 宝宝很小。
+banana | The banana is yellow. | 香蕉是黄色的。
+brother | My brother is ten. | 我哥哥十岁。
+come | Come here, please. | 请过来。
+dad | My dad is a doctor. | 我爸爸是医生。
+family | There are four people in my family. | 我家有四口人。
+father | My father is a worker. | 我爸爸是工人。
+fruit | Fruit is good for you. | 水果对你有好处。
+grape | I have a grape. | 我有一颗葡萄。
+great | That is great! | 太棒了！
+like | I like this book. | 我喜欢这本书。
+look | Look! The bus is here. | 看！公交车来了。
+make | Let us make a cake. | 我们做个蛋糕吧。
+mango | I have a big mango. | 我有一个大芒果。
+meet | Nice to meet you. | 很高兴认识你。
+mother | My mother is a nurse. | 我妈妈是护士。
+mum | My mum is a teacher. | 我妈妈是老师。
+orange | This orange is big. | 这个橙子很大。
+pond | The fish is in the pond. | 鱼在池塘里。
+quick | Be quick! The bus is here. | 快点！公交车来了。
+salad | I want a salad. | 我想要一份沙拉。
+say | Say it again, please. | 请再说一遍。
+share | Let us share the cake. | 我们分享蛋糕吧。
+sister | My sister is six. | 我妹妹六岁。
+together | We do our homework together. | 我们一起做作业。
+aunt | My aunt is a driver. | 我姑姑是司机。
+big | The elephant is big. | 大象很大。
+carrot | The rabbit eats the carrot. | 兔子吃胡萝卜。
+chicken | The chicken is on the farm. | 鸡在农场里。
+cool | Your schoolbag is cool. | 你的书包真酷。
+cousin | My cousin is five. | 我表弟五岁。
+cow | We have a cow on the farm. | 我们农场里有一头奶牛。
+cute | The panda is cute. | 熊猫很可爱。
+farm | There are many cows on the farm. | 农场里有很多奶牛。
+grandfather | My grandfather likes tea. | 我爷爷喜欢喝茶。
+grandmother | My grandmother is kind. | 我奶奶很和蔼。
+happy | I am happy today. | 我今天很开心。
+help | Can you help me? | 你能帮我吗？
+home | I am at home. | 我在家。
+love | I love my family. | 我爱我的家人。
+move | Move the chair, please. | 请把椅子搬一下。
+pig | The pig is pink. | 猪是粉色的。
+rabbit | The rabbit is white. | 兔子是白色的。
+sheep | I can see ten sheep. | 我能看见十只羊。
+uncle | My uncle is a farmer. | 我叔叔是农民。
+wow | Wow! The garden is beautiful. | 哇！花园真美。
+animal | The panda is my favourite animal. | 熊猫是我最喜欢的动物。
+ball | The ball is under the desk. | 球在书桌下面。
+bear | The bear is behind the tree. | 熊在树后面。
+book | This book is interesting. | 这本书很有趣。
+cake | My mother makes a cake. | 我妈妈做了一个蛋糕。
+car | My father has a new car. | 我爸爸有一辆新车。
+eight | I have eight books. | 我有八本书。
+elephant | The elephant has a long nose. | 大象有长鼻子。
+feed | I feed the rabbit. | 我喂兔子。
+fish | We eat fish for lunch. | 我们午饭吃鱼。
+five | I have five apples. | 我有五个苹果。
+four | The cat has four legs. | 猫有四条腿。
+high five | Give me a high five! | 给我击个掌！
+lion | The lion is strong. | 狮子很强壮。
+lunchtime | It is lunchtime. | 到午饭时间了。
+monkey | The monkey is in the tree. | 猴子在树上。
+nine | It is nine o'clock. | 九点了。
+now | We go home now. | 我们现在回家。
+OK | OK, I can do it. | 好的，我能做到。
+one | I have one brother. | 我有一个哥哥。
+panda | The panda is black and white. | 熊猫是黑白相间的。
+please | Come in, please. | 请进。
+see | I can see a bird. | 我能看见一只鸟。
+seven | There are seven days in a week. | 一周有七天。
+six | My sister is six. | 我妹妹六岁。
+some | I want some water. | 我想要一些水。
+ten | There are ten books. | 有十本书。
+thanks | Thanks for your help. | 谢谢你的帮助。
+three | The cat has three toys. | 猫有三个玩具。
+tiger | The tiger has a long tail. | 老虎有长尾巴。
+toy | This toy is for my brother. | 这个玩具是给我弟弟的。
+two | I have two hands. | 我有两只手。
+want | I want a new schoolbag. | 我想要一个新书包。
+zoo | We go to the zoo on Sunday. | 我们周日去动物园。
+balloon | I have a red balloon. | 我有一个红气球。
+black | The cat is black. | 这只猫是黑色的。
+blue | The sky is blue. | 天空是蓝色的。
+brown | The bear is brown. | 熊是棕色的。
+buy | I want to buy a book. | 我想买一本书。
+chameleon | The chameleon is on the tree. | 变色龙在树上。
+child | The child is happy. | 这个孩子很开心。
+clean | I clean my room every day. | 我每天打扫我的房间。
+colour | What colour is your bag? | 你的包是什么颜色的？
+dance | I can dance well. | 我跳舞跳得好。
+dizzy | I feel dizzy. | 我觉得头晕。
+draw | I can draw a cat. | 我会画猫。
+er | Er, I am not sure. | 呃，我不确定。
+fox | The fox is in the forest. | 狐狸在森林里。
+green | The tree is green. | 树是绿色的。
+little | The little dog is cute. | 小狗很可爱。
+picture | This picture is nice. | 这幅画很好看。
+pink | Her dress is pink. | 她的连衣裙是粉色的。
+red | My pen is red. | 我有一支红钢笔。
+sing | She can sing well. | 她唱歌唱得好。
+sure | I am not sure. | 我不确定。
+table | The book is on the table. | 书在桌子上。
+take pictures | Let us take pictures in the park. | 我们在公园拍照吧。
+thing | What is this thing? | 这是什么东西？
+white | My shirt is white. | 我的衬衫是白色的。
+yellow | My cap is yellow. | 我的帽子是黄色的。
+# --- 四年级 ---
+all | We are all here. | 我们都到了。
+angry | Do not be angry. | 别生气。
+Art | I like my Art lesson. | 我喜欢我的美术课。
+be good at | I want to be good at English. | 我想把英语学好。
+become | I want to become a doctor. | 我想成为一名医生。
+best | This is the best cake. | 这是最好的蛋糕。
+Chinese | Chinese is my favourite subject. | 语文是我最喜欢的科目。
+culture | I like Chinese culture. | 我喜欢中国文化。
+English | We have an English lesson today. | 我们今天有英语课。
+forest | The fox lives in the forest. | 狐狸住在森林里。
+friendship | Our friendship is important. | 我们的友谊很重要。
+hole | The mouse is in the hole. | 老鼠在洞里。
+interesting | This story is interesting. | 这个故事很有趣。
+kind | My teacher is kind. | 我的老师很和蔼。
+Labour | I help my mum on Labour Day. | 劳动节我帮妈妈干活。
+learn about | I learn about animals. | 我学习关于动物的知识。
+Maths | I am good at Maths. | 我擅长数学。
+mouse | The mouse is little. | 老鼠很小。
+Music | I can sing in Music. | 我能在音乐课上唱歌。
+net | The ball is in the net. | 球在网里。
+one day | One day I want to go to the zoo. | 有一天我想去动物园。
+party | We have a party today. | 我们今天有个聚会。
+PE | I run fast in PE. | 我在体育课上跑得快。
+read | I read a book every day. | 我每天读一本书。
+sad | The girl is sad. | 女孩很难过。
+Science | Science is interesting. | 科学很有趣。
+sports ground | We play on the sports ground. | 我们在操场上玩。
+story | I read a story to my sister. | 我给妹妹读故事。
+strong | He is tall and strong. | 他又高又壮。
+subject | Maths is my favourite subject. | 数学是我最喜欢的科目。
+there are | There are many books on the desk. | 书桌上有许多书。
+there is | There is a pen in my bag. | 我包里有一支钢笔。
+thin | The book is thin. | 这本书很薄。
+weak | The little bird is weak. | 小鸟很虚弱。
+any | Do you have any water? | 你有水吗？
+bed | My bed is big. | 我的床很大。
+breakfast | I have breakfast at seven. | 我七点吃早饭。
+careful | Be careful! The car is coming. | 小心！车来了。
+computer | I play on the computer. | 我玩电脑。
+day | What a nice day! | 多好的一天啊！
+dinner | We have dinner at six. | 我们六点吃晚饭。
+early | I get up early. | 我起得很早。
+eleven | I have eleven pencils. | 我有十一支铅笔。
+face | Wash your face, please. | 请洗脸。
+feel | I feel happy today. | 我今天感觉很开心。
+fifteen | There are fifteen apples. | 有十五个苹果。
+first | Tom is the first. | 汤姆是第一名。
+get up | I get up at six. | 我六点起床。
+go to bed | I go to bed at nine. | 我九点睡觉。
+have a look | Have a look at this picture. | 看看这幅画。
+have lessons | We have lessons every day. | 我们每天上课。
+hurry up | Hurry up! The bus is coming. | 快点！公交车来了。
+later | I can do it later. | 我可以晚点做。
+lunch | We have lunch at twelve. | 我们十二点吃午饭。
+o'clock | I get up at six o'clock. | 我六点起床。
+other | Where is the other shoe? | 另一只鞋在哪里？
+piano | I can play the piano. | 我会弹钢琴。
+playground | I play football on the playground. | 我在操场上踢足球。
+room | There are two beds in my room. | 我房间里有两张床。
+second | I am the second. | 我是第二名。
+show ... around | Let me show you around. | 我带你参观一下。
+sport | My favourite sport is football. | 我最喜欢的运动是足球。
+swing | The monkey is on the swing. | 猴子在秋千上。
+take | Take an umbrella with you. | 带把伞。
+third | She is the third. | 她是第三名。
+thirty | I have thirty cards. | 我有三十张卡片。
+twenty | There are twenty students. | 有二十个学生。
+wash | I wash my hands. | 我洗手。
+after school | I play football after school. | 放学后我踢足球。
+bus | I take the bus to school. | 我坐公交车上学。
+busy | My father is busy. | 我爸爸很忙。
+cinema | We go to the cinema. | 我们去电影院。
+cross | Cross the road, please. | 请过马路。
+dancing | She likes dancing. | 她喜欢跳舞。
+dog | The dog is in the garden. | 狗在花园里。
+every | Every student is here. | 每个学生都到了。
+free | Are you free today? | 你今天有空吗？
+Friday | We have a party on Friday. | 我们周五有个聚会。
+left | The cinema is on the left. | 电影院在左边。
+lesson | Every lesson is fun. | 每节课都很有趣。
+Monday | We go to school on Monday. | 我们周一上学。
+road | The road is busy. | 路上车很多。
+safe | It is safe here. | 这里很安全。
+safety | Safety is important. | 安全很重要。
+Saturday | We go to the park on Saturday. | 我们周六去公园。
+stay | Stay at home, please. | 请待在家里。
+stop | Stop! The light is red. | 停！红灯了。
+Sunday | I visit my grandmother on Sunday. | 我周日去看奶奶。
+Thursday | We have Music on Thursday. | 我们周四有音乐课。
+today | Today is my birthday. | 今天是我的生日。
+tomorrow | See you tomorrow. | 明天见。
+traffic light | The traffic light is red. | 红绿灯是红的。
+Tuesday | I have a piano lesson on Tuesday. | 我周二有钢琴课。
+wait | Wait for me, please. | 请等等我。
+walk | I walk to school. | 我走路上学。
+Wednesday | We have Art on Wednesday. | 我们周三有美术课。
+week | We go to school five days a week. | 我们一周上五天学。
+bag | My bag is on the table. | 我的包在桌上。
+basketball | I like playing basketball. | 我喜欢打篮球。
+bread | I eat bread for breakfast. | 我早饭吃面包。
+care about | My parents care about me. | 我父母关心我。
+dear | Dear Mum, I love you. | 亲爱的妈妈，我爱你。
+football | He plays football well. | 他足球踢得好。
+hard | English is hard for me. | 英语对我来说很难。
+have a rest | Let us have a rest. | 我们休息一下吧。
+hungry | I am hungry now. | 我现在饿了。
+ill | My dog is ill. | 我的狗病了。
+ping-pong | I play ping-pong with my father. | 我和爸爸打乒乓球。
+set the table | I set the table for dinner. | 我摆好桌子准备吃饭。
+so | I am tired, so I go to bed. | 我累了，所以我去睡觉。
+swimming | I go swimming on Sunday. | 我周日去游泳。
+thirsty | The boy is thirsty. | 那个男孩渴了。
+tired | My mother is tired. | 我妈妈累了。
+try | Let me try again. | 让我再试一次。
+water | I drink water every day. | 我每天喝水。
+well | I can swim well. | 我游泳游得好。
+a cup of | I want a cup of tea. | 我想要一杯茶。
+a glass of | She drinks a glass of milk. | 她喝一杯牛奶。
+arm | My arm is strong. | 我的胳膊很强壮。
+bring | Bring your book tomorrow. | 明天把书带来。
+delicious | The cake is delicious. | 蛋糕很好吃。
+different | My bag is different. | 我的包不一样。
+doll | The doll is on the bed. | 娃娃在床上。
+ear | The elephant has a big ear. | 大象有一只大耳朵。
+eat out | We eat out today. | 我们今天出去吃饭。
+eye | The doll has one eye. | 娃娃有一只眼睛。
+fish and chips | We eat fish and chips. | 我们吃炸鱼薯条。
+food | Chinese food is delicious. | 中国菜很好吃。
+fried rice | My mum cooks fried rice. | 我妈妈做炒饭。
+hair | Her hair is long. | 她的头发很长。
+hot dog | I eat a hot dog. | 我吃一个热狗。
+hot pot | We eat hot pot today. | 我们今天吃火锅。
+juice | I drink apple juice. | 我喝苹果汁。
+leg | My leg hurts. | 我的腿疼。
+lots of | I have lots of toys. | 我有很多玩具。
+menu | Let me see the menu. | 让我看看菜单。
+mouth | Open your mouth, please. | 请张开嘴。
+next time | Let us play again next time. | 下次我们再玩吧。
+noodle | The noodle is long. | 面条很长。
+nose | The pig has a big nose. | 猪有一个大鼻子。
+robot | The robot can walk. | 机器人会走路。
+same | We are in the same class. | 我们在同一个班。
+sandwich | I eat a sandwich for lunch. | 我午饭吃三明治。
+short | My hair is short. | 我的头发很短。
+show | Show me your picture, please. | 请给我看看你的画。
+small | The mouse is small. | 老鼠很小。
+spring roll | This spring roll is delicious. | 这个春卷很好吃。
+takeaway box | The takeaway box is on the table. | 外卖盒在桌子上。
+tall | He is very tall. | 他很高。
+tea | My grandfather drinks tea. | 我爷爷喝茶。
+cloudy | It is cloudy today. | 今天多云。
+cook | My mother can cook. | 我妈妈会做饭。
+doctor | The doctor is kind. | 医生很和蔼。
+driver | The driver is my uncle. | 司机是我叔叔。
+farmer | The farmer works on the farm. | 农民在农场干活。
+fly a kite | We fly a kite in the park. | 我们在公园放风筝。
+hospital | My mother works in a hospital. | 我妈妈在医院工作。
+hot | The soup is hot. | 汤很烫。
+job | My father likes his job. | 我爸爸喜欢他的工作。
+money | I have no money. | 我没有钱。
+nurse | My aunt is a nurse. | 我姑姑是护士。
+parent | My parent works in a school. | 我爸爸（或妈妈）在学校工作。
+park | We play in the park. | 我们在公园里玩。
+people | There are many people here. | 这里有很多人。
+place | This is a good place. | 这是个好地方。
+police officer | The police officer helps people. | 警察帮助人们。
+rainy | I stay at home on rainy days. | 下雨天我待在家里。
+sick | My cat is sick. | 我的猫病了。
+sunny | We go to the park on a sunny day. | 晴天我们去公园。
+taxi | Let us take a taxi. | 我们坐出租车吧。
+teacher | My English teacher is Miss Li. | 我的英语老师是李老师。
+train | The train is fast. | 火车很快。
+umbrella | Take an umbrella, please. | 请带把伞。
+work | I work hard at school. | 我在学校努力学习。
+worker | The worker makes cars. | 工人造汽车。
+worry | Do not worry. | 别担心。
+autumn | Autumn is my favourite season. | 秋天是我最喜欢的季节。
+back | Give the book back to me. | 把书还给我。
+bird | The bird can fly. | 鸟会飞。
+chore | I have a chore today. | 我今天有一件家务。
+cold | The water is cold. | 水很冷。
+dish | I wash the dish. | 我洗盘子。
+go boating | We go boating on Sunday. | 我们周日去划船。
+go climbing | We go climbing on Saturday. | 我们周六去爬山。
+go skating | I go skating in winter. | 我冬天去滑冰。
+go swimming | I go swimming in summer. | 我夏天去游泳。
+half | I eat half of the cake. | 我吃了一半蛋糕。
+house | I live in a big house. | 我住在一栋大房子里。
+ice cream | This ice cream is cold. | 这个冰淇淋很凉。
+make the bed | I make the bed every day. | 我每天整理床铺。
+new | This is my new bag. | 这是我的新包。
+part of | I am part of the Art Club. | 我是美术社团的一员。
+past | It is half past seven. | 七点半了。
+pick | I pick an apple. | 我摘了一个苹果。
+plant | The plant is green. | 这株植物是绿色的。
+season | Spring is a nice season. | 春天是个好季节。
+snow | I like the snow. | 我喜欢雪。
+spring | Spring is warm. | 春天很暖和。
+summer | Summer is hot. | 夏天很热。
+weekend | I play football at the weekend. | 我周末踢足球。
+winter | Winter is cold. | 冬天很冷。
+year | Happy New Year! | 新年快乐！
+# --- 四年级补 ---
+warm | My tea is warm. | 我的茶是温的。
+way | This is the way to school. | 这是去学校的路。
+weather | The weather is good today. | 今天天气很好。
+windy | It is a windy day. | 今天风很大。
+birthday | I have a birthday cake. | 我有一个生日蛋糕。
+bright | The light is bright. | 灯很亮。
+cap | My cap is red. | 我的帽子是红色的。
+clothes | My clothes are new. | 我的衣服是新的。
+coat | The coat is warm. | 这件外套很暖和。
+cut | Do not cut the paper. | 不要剪纸。
+dress | Her dress is nice. | 她的连衣裙很漂亮。
+egg | I eat an egg for breakfast. | 我早饭吃一个鸡蛋。
+get | I get a book from the library. | 我从图书馆取一本书。
+kitchen | My mum is in the kitchen. | 我妈妈在厨房里。
+meat | I eat meat for lunch. | 我午饭吃肉。
+milk | I drink a glass of milk. | 我喝一杯牛奶。
+potato | The potato is in the soup. | 土豆在汤里。
+really | The book is really good. | 这本书真的很好。
+shirt | His shirt is blue. | 他的衬衫是蓝色的。
+shorts | These are my shorts. | 这是我的短裤。
+skirt | My skirt is new. | 我的短裙是新的。
+soup | I have soup for dinner. | 我晚饭喝汤。
+sunglasses | I wear sunglasses. | 我戴太阳镜。
+tomato | The tomato is in the salad. | 番茄在沙拉里。
+trousers | My trousers are long. | 我的长裤很长。
+wear | I wear a coat in winter. | 我冬天穿外套。
+whose | Whose bag is this? | 这是谁的包？
+# --- 五年级 ---
+a lot of | I see a lot of birds. | 我看见许多鸟。
+bad | The weather is bad. | 天气很糟糕。
+card | I have a birthday card. | 我有一张生日卡片。
+carefully | Write carefully, please. | 请仔细写。
+do exercise | I do exercise at school. | 我在学校锻炼。
+do well | I do well in school. | 我在学校表现很好。
+habit | It is a good habit. | 这是个好习惯。
+health | I am in good health. | 我身体很健康。
+healthy | I want to be healthy. | 我想保持健康。
+in bed | I read in bed. | 我在床上看书。
+in class | I listen in class. | 我在课堂上听讲。
+listen | I listen to the teacher. | 我听老师讲课。
+never | I never get up late. | 我从不晚起。
+often | I often read books. | 我经常读书。
+put...in order | Put your books in order. | 把你的书整理好。
+take notes | I take notes in class. | 我在课堂上记笔记。
+tidy | Keep your room tidy. | 保持你的房间整洁。
+very much | I like it very much. | 我非常喜欢它。
+wait a minute | Please wait a minute. | 请等一下。
+excited | He is excited. | 他很兴奋。
+fast | The car is fast. | 汽车很快。
+feel good | I feel good today. | 我今天感觉很好。
+give up | Never give up. | 永不放弃。
+hand | My hand is clean. | 我的手很干净。
+hear | I hear the bird. | 我听见鸟叫。
+know | I know this word. | 我认识这个单词。
+ouch | Ouch! My leg hurts. | 哎哟！我的腿疼。
+sometimes | I sometimes go swimming. | 我有时去游泳。
+speak | I speak English. | 我说英语。
+study | I study hard. | 我努力学习。
+teach | My mum can teach English. | 我妈妈会教英语。
+the high jump | The high jump is my favourite sport. | 跳高是我最喜欢的运动。
+understand | I understand it. | 我懂了。
+word | I write a word. | 我写一个单词。
+worried | He looks worried. | 他看起来很担心。
+write | I write with a pen. | 我用钢笔写字。
+yeah | Yeah, I know. | 是的，我知道。
+a lot | I eat a lot. | 我吃得很多。
+gift | This gift is for you. | 这个礼物是给你的。
+hobby | Reading is my hobby. | 阅读是我的爱好。
+join | I join the Art Club. | 我加入了美术社团。
+over there | Look! The bus is over there. | 看！公交车在那边。
+paint | I paint a picture. | 我画一幅画。
+paper-cutting | I like paper-cutting. | 我喜欢剪纸。
+skip | I skip in the park. | 我在公园跳绳。
+climb | I climb the tree. | 我爬树。
+hurt | I hurt my leg. | 我伤到腿了。
+jump | I jump high. | 我跳得很高。
+pull | Pull the door, please. | 请拉门。
+push | Push the box, please. | 请推箱子。
+right now | Come here right now. | 马上过来。
+slowly | I walk slowly. | 我走得很慢。
+stairs | I go up the stairs. | 我上楼梯。
+swim | I swim in the pool. | 我在游泳池里游泳。
+swimming pool | I swim in the swimming pool. | 我在游泳池里游泳。
+warm up | I warm up before I run. | 我跑步前先热身。
+always | I always help my mum. | 我总是帮我妈妈。
+chat | I chat with my friend. | 我和朋友聊天。
+get out | Get out of the room. | 从房间里出去。
+grandparent | My grandparent lives with us. | 我的祖父和我们住在一起。
+have a picnic | We want to have a picnic. | 我们想去野餐。
+internet | I use the internet. | 我使用互联网。
+live | I live with my parents. | 我和父母住在一起。
+play Chinese chess | I play Chinese chess with my father. | 我和爸爸下象棋。
+play the piano | I play the piano after school. | 我放学后弹钢琴。
+spend | I spend time with my family. | 我和家人共度时光。
+TV | I watch TV at home. | 我在家看电视。
+usually | I usually walk to school. | 我通常走路上学。
+visit | I visit my grandparents. | 我看望我的祖父母。
+watch | I watch the ball. | 我看着球。
+wonderful | The story is wonderful. | 这个故事很精彩。
+advice | My teacher gives me advice. | 老师给我建议。
+between | I sit between two friends. | 我坐在两个朋友中间。
+classmate | My classmate is my friend. | 我的同学是我的朋友。
+close to | My school is close to my home. | 我的学校离我家很近。
+do your homework | You should do your homework. | 你应该做家庭作业。
+drink | I drink water. | 我喝水。
+favourite | This is my favourite book. | 这是我最喜欢的书。
+friendly | She is friendly. | 她很友好。
+get along with | I get along with my classmates. | 我和同学们相处融洽。
+heavy | The box is heavy. | 这个箱子很重。
+important | This is important. | 这很重要。
+letter | I get a letter from my friend. | 我收到朋友的一封信。
+neighbour | My neighbour has a dog. | 我的邻居养了一条狗。
+next to | The shop is next to the school. | 商店紧挨着学校。
+problem | No problem. | 没问题。
+space | There is space here. | 这里有空地。
+time | What time is it? | 几点了？
+use | I use a pen to write. | 我用钢笔写字。
+wall | The picture is on the wall. | 画挂在墙上。
+bow | Her bow is pink. | 她的蝴蝶结是粉色的。
+forty | There are forty books on the desk. | 桌子上有四十本书。
+list | I make a list. | 我列一个清单。
+Ms | Ms Li is our teacher. | 李女士是我们的老师。
+need | I need some water. | 我需要一些水。
+pair | I have a pair of socks. | 我有一双短袜。
+pocket money | I save my pocket money. | 我把零花钱存起来。
+shoe | My shoe is white. | 我的鞋是白色的。
+shop | I shop with my mum. | 我和妈妈去购物。
+sixty-eight | My school has sixty-eight teachers. | 我们学校有六十八位老师。
+smart | The robot is smart. | 这个机器人很聪明。
+sock | This sock is red. | 这只短袜是红色的。
+sweater | My sweater is warm. | 我的毛衣很暖和。
+tail | The dog has a long tail. | 这条狗有一条长尾巴。
+try on | I try on the coat. | 我试穿这件外套。
+twenty-eight | There are twenty-eight days in February. | 二月有二十八天。
+twenty-four | My class has twenty-four students. | 我们班有二十四个学生。
+yuan | This bag is ten yuan. | 这个包十元。
+about | This book is about animals. | 这本书是关于动物的。
+before | Wash your hands before dinner. | 晚饭前洗手。
+December | It is cold in December. | 十二月很冷。
+door | The door is open. | 门开着。
+dragon boat race | We watch the dragon boat race. | 我们看龙舟比赛。
+February | The festival is in February. | 这个节日在二月。
+festival | I like the Spring Festival. | 我喜欢春节。
+hang | I hang my coat. | 我挂我的外套。
+January | My birthday is in January. | 我的生日在一月。
+June | It is hot in June. | 六月很热。
+lion dance | The lion dance is fun. | 舞狮很有趣。
+open | Open your book, please. | 请打开你的书。
+red packet | I get a red packet. | 我得到一个红包。
+sky | The bird flies in the sky. | 鸟在天空中飞。
+stocking | I hang the stocking. | 我挂起圣诞袜。

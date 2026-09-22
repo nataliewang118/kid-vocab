@@ -1,0 +1,2330 @@
+[
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 1,
+  "word": "subject",
+  "cn": "学科，科目",
+  "phonetic": "/ˈsʌbdʒɪkt/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 1,
+  "word": "Chinese",
+  "cn": "语文（课）；中国的",
+  "phonetic": "/ˌtʃaɪˈniːz/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 1,
+  "word": "English",
+  "cn": "英语（课）；英语的",
+  "phonetic": "/ˈɪŋɡlɪʃ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 1,
+  "word": "Maths",
+  "cn": "(AmE math) 数学（课）",
+  "phonetic": "/mæθs/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 1,
+  "word": "PE",
+  "cn": "体育（课）",
+  "phonetic": "/ˌpiːˈiː/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 1,
+  "word": "Art",
+  "cn": "美术（课）",
+  "phonetic": "/ɑːt/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 1,
+  "word": "Science",
+  "cn": "科学（课）",
+  "phonetic": "/ˈsaɪəns/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 1,
+  "word": "IT",
+  "cn": "信息科技（课）",
+  "phonetic": ""
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 1,
+  "word": "Music",
+  "cn": "音乐（课）",
+  "phonetic": "/ˈmjuːzɪk/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 1,
+  "word": "Labour",
+  "cn": "劳动（课）",
+  "phonetic": "/ˈleɪbər/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 1,
+  "word": "best",
+  "cn": "最，最高程度地",
+  "phonetic": "/best/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 1,
+  "word": "also",
+  "cn": "也",
+  "phonetic": "/ˈɔːlsəʊ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 1,
+  "word": "It's time for ...",
+  "cn": "是……的时候了。",
+  "phonetic": "/ɪts taɪm fɔː .../"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 1,
+  "word": "mouse",
+  "cn": "(pl. mice) 鼠标；老鼠",
+  "phonetic": "/maʊs/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 1,
+  "word": "Welcome back to ...",
+  "cn": "欢迎回到……",
+  "phonetic": "/ˈwelkəm bæk tuː .../"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 1,
+  "word": "be good at",
+  "cn": "擅长",
+  "phonetic": "/biː ɡʊd æt/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 1,
+  "word": "interesting",
+  "cn": "有趣的，有吸引力的",
+  "phonetic": "/ˈɪntrəstɪŋ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 1,
+  "word": "learn about",
+  "cn": "学习",
+  "phonetic": "/lɜːn əˈbaʊt/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 1,
+  "word": "culture",
+  "cn": "文化，文明",
+  "phonetic": "/ˈkʌltʃər/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 1,
+  "word": "read",
+  "cn": "阅读",
+  "phonetic": "/riːd/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 1,
+  "word": "story",
+  "cn": "故事",
+  "phonetic": "/ˈstɔːri/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 1,
+  "word": "all",
+  "cn": "全部，都",
+  "phonetic": "/ɔːl/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 1,
+  "word": "sports ground",
+  "cn": "操场，运动场",
+  "phonetic": "/spɔːts ɡraʊnd/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 2,
+  "word": "day",
+  "cn": "一天，一日",
+  "phonetic": "/deɪ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 2,
+  "word": "get up",
+  "cn": "起床",
+  "phonetic": "/ɡet ʌp/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 2,
+  "word": "wash",
+  "cn": "洗",
+  "phonetic": "/wɒʃ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 2,
+  "word": "face",
+  "cn": "脸，面孔",
+  "phonetic": "/feɪs/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 2,
+  "word": "have lessons",
+  "cn": "上课",
+  "phonetic": "/hæv ˈlesənz/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 2,
+  "word": "have",
+  "cn": "吃，喝",
+  "phonetic": "/hæv/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 2,
+  "word": "dinner",
+  "cn": "正餐（常指晚餐）",
+  "phonetic": "/ˈdɪnər/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 2,
+  "word": "breakfast",
+  "cn": "早餐，早饭",
+  "phonetic": "/ˈbrekfəst/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 2,
+  "word": "lunch",
+  "cn": "午餐，午饭",
+  "phonetic": "/lʌntʃ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 2,
+  "word": "go to bed",
+  "cn": "上床睡觉",
+  "phonetic": "/ɡəʊ tuː bed/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 2,
+  "word": "o'clock",
+  "cn": "（表示整点）……点钟",
+  "phonetic": "/əˈklɒk/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 2,
+  "word": "early",
+  "cn": "早的，早",
+  "phonetic": "/ˈɜːli/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 2,
+  "word": "thirty",
+  "cn": "三十",
+  "phonetic": "/ˈθɜːti/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 2,
+  "word": "first",
+  "cn": "首先，第一",
+  "phonetic": "/fɜːst/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 2,
+  "word": "hurry up",
+  "cn": "快点",
+  "phonetic": "/ˈhʌri ʌp/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 2,
+  "word": "What time is it?",
+  "cn": "几点了？",
+  "phonetic": "/wɒt taɪm ɪz ɪt/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 2,
+  "word": "I'm coming!",
+  "cn": "我来了！",
+  "phonetic": "/aɪm ˈkʌmɪŋ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 2,
+  "word": "twenty",
+  "cn": "二十",
+  "phonetic": "/ˈtwenti/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 2,
+  "word": "Come on!",
+  "cn": "赶快！加把劲！",
+  "phonetic": "/kʌm ɒn/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 2,
+  "word": "class",
+  "cn": "课，上课",
+  "phonetic": "/klɑːs/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 2,
+  "word": "eleven",
+  "cn": "十一",
+  "phonetic": "/ɪˈlevən/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 2,
+  "word": "sport",
+  "cn": "体育运动",
+  "phonetic": "/spɔːt/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 2,
+  "word": "fifteen",
+  "cn": "十五",
+  "phonetic": "/ˌfɪfˈtiːn/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 2,
+  "word": "It's time to ...",
+  "cn": "到了……的时间了。",
+  "phonetic": "/ɪts taɪm tuː .../"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 2,
+  "word": "bed",
+  "cn": "床",
+  "phonetic": "/bed/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 2,
+  "word": "Good night!",
+  "cn": "晚安！",
+  "phonetic": "/ɡʊd naɪt/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 3,
+  "word": "week",
+  "cn": "周，星期",
+  "phonetic": "/wiːk/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 3,
+  "word": "Monday",
+  "cn": "星期一",
+  "phonetic": "/ˈmʌndeɪ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 3,
+  "word": "Tuesday",
+  "cn": "星期二",
+  "phonetic": "/ˈtjuːzdeɪ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 3,
+  "word": "Wednesday",
+  "cn": "星期三",
+  "phonetic": "/ˈwenzdeɪ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 3,
+  "word": "Thursday",
+  "cn": "星期四",
+  "phonetic": "/ˈθɜːzdeɪ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 3,
+  "word": "Friday",
+  "cn": "星期五",
+  "phonetic": "/ˈfraɪdeɪ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 3,
+  "word": "Saturday",
+  "cn": "星期六",
+  "phonetic": "/ˈsætədeɪ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 3,
+  "word": "Sunday",
+  "cn": "星期天",
+  "phonetic": "/ˈsʌndeɪ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 3,
+  "word": "when",
+  "cn": "什么时候",
+  "phonetic": "/wen/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 3,
+  "word": "every",
+  "cn": "每一个，每个",
+  "phonetic": "/ˈevri/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 3,
+  "word": "at",
+  "cn": "在（某时间）",
+  "phonetic": "/æt/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 3,
+  "word": "up",
+  "cn": "起床",
+  "phonetic": "/ʌp/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 3,
+  "word": "early",
+  "cn": "提早，提前",
+  "phonetic": "/ˈɜːli/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 3,
+  "word": "today",
+  "cn": "在今天",
+  "phonetic": "/təˈdeɪ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 3,
+  "word": "What day is it today?",
+  "cn": "今天星期几？",
+  "phonetic": "/wɒt deɪ ɪz ɪt təˈdeɪ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 3,
+  "word": "cinema",
+  "cn": "电影院",
+  "phonetic": "/ˈsɪnəmə/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 3,
+  "word": "after school",
+  "cn": "放学后",
+  "phonetic": "/ˈɑːftər skuːl/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 3,
+  "word": "dancing",
+  "cn": "跳舞，舞蹈",
+  "phonetic": "/ˈdɑːnsɪŋ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 3,
+  "word": "lesson",
+  "cn": "一节课，一课时",
+  "phonetic": "/ˈlesən/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 3,
+  "word": "walk",
+  "cn": "牵着（动物）走，遛",
+  "phonetic": "/wɔːk/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 3,
+  "word": "dog",
+  "cn": "狗",
+  "phonetic": "/dɒɡ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 3,
+  "word": "tomorrow",
+  "cn": "明天；在明天",
+  "phonetic": "/təˈmɒrəʊ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 3,
+  "word": "free",
+  "cn": "空闲的",
+  "phonetic": "/friː/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 3,
+  "word": "See you tomorrow!",
+  "cn": "明天见！",
+  "phonetic": "/siː juː təˈmɒrəʊ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 4,
+  "word": "play",
+  "cn": "打（球），踢（球）",
+  "phonetic": "/pleɪ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 4,
+  "word": "football",
+  "cn": "足球运动；足球",
+  "phonetic": "/ˈfʊtbɔːl/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 4,
+  "word": "ping-pong",
+  "cn": "乒乓球运动",
+  "phonetic": "/pɪŋ pɒŋ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 4,
+  "word": "basketball",
+  "cn": "篮球运动；篮球",
+  "phonetic": "/ˈbɑːskɪtbɔːl/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 4,
+  "word": "great",
+  "cn": "非常的",
+  "phonetic": "/ɡreɪt/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 4,
+  "word": "swimming",
+  "cn": "游泳；游泳运动",
+  "phonetic": "/ˈswɪmɪŋ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 4,
+  "word": "so",
+  "cn": "（表示程度）这么，那么",
+  "phonetic": "/səʊ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 4,
+  "word": "well",
+  "cn": "好",
+  "phonetic": "/wel/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 4,
+  "word": "Have a go!",
+  "cn": "试一试！",
+  "phonetic": "/hæv ə ɡəʊ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 4,
+  "word": "hard",
+  "cn": "难做的，不易的",
+  "phonetic": "/hɑːd/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 4,
+  "word": "It's OK.",
+  "cn": "没关系。",
+  "phonetic": ""
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 4,
+  "word": "try",
+  "cn": "试",
+  "phonetic": "/traɪ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 4,
+  "word": "Well played!",
+  "cn": "好球！",
+  "phonetic": "/wel pleɪd/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 5,
+  "word": "different",
+  "cn": "不同的，有区别的",
+  "phonetic": "/ˈdɪfrənt/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 5,
+  "word": "same",
+  "cn": "相同的，同一的",
+  "phonetic": "/seɪm/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 5,
+  "word": "hair",
+  "cn": "头发",
+  "phonetic": "/heə/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 5,
+  "word": "eye",
+  "cn": "眼睛",
+  "phonetic": "/aɪ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 5,
+  "word": "ear",
+  "cn": "耳朵",
+  "phonetic": "/ɪə/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 5,
+  "word": "nose",
+  "cn": "鼻子",
+  "phonetic": "/nəʊz/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 5,
+  "word": "mouth",
+  "cn": "嘴，口",
+  "phonetic": "/maʊθ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 5,
+  "word": "arm",
+  "cn": "手臂",
+  "phonetic": "/ɑːm/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 5,
+  "word": "leg",
+  "cn": "腿",
+  "phonetic": "/leɡ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 5,
+  "word": "robot",
+  "cn": "机器人",
+  "phonetic": "/ˈrəʊbɒt/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 5,
+  "word": "his",
+  "cn": "他的",
+  "phonetic": "/hɪz/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 5,
+  "word": "tall",
+  "cn": "高的",
+  "phonetic": "/tɔːl/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 5,
+  "word": "short",
+  "cn": "短的",
+  "phonetic": "/ʃɔːt/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 5,
+  "word": "doll",
+  "cn": "玩具娃娃",
+  "phonetic": "/dɒl/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 5,
+  "word": "her",
+  "cn": "她的",
+  "phonetic": "/hɜː/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 5,
+  "word": "small",
+  "cn": "小的",
+  "phonetic": "/smɔːl/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 5,
+  "word": "bring",
+  "cn": "带来",
+  "phonetic": "/brɪŋ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 5,
+  "word": "lots of",
+  "cn": "大量，许多",
+  "phonetic": "/lɒtz ɒv/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 5,
+  "word": "have",
+  "cn": "组织，举办",
+  "phonetic": "/hæv/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 5,
+  "word": "show",
+  "cn": "表演，演出",
+  "phonetic": "/ʃəʊ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 6,
+  "word": "weather",
+  "cn": "天气，气象",
+  "phonetic": "/ˈweðər/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 6,
+  "word": "cloudy",
+  "cn": "多云的，阴天的",
+  "phonetic": "/ˈklaʊdi/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 6,
+  "word": "sunny",
+  "cn": "晴朗的",
+  "phonetic": "/ˈsʌni/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 6,
+  "word": "cool",
+  "cn": "凉的，凉爽的",
+  "phonetic": "/kuːl/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 6,
+  "word": "rainy",
+  "cn": "阴雨的，多雨的",
+  "phonetic": "/ˈreɪni/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 6,
+  "word": "hot",
+  "cn": "温度高的，热的",
+  "phonetic": "/hɒt/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 6,
+  "word": "windy",
+  "cn": "多风的，风大的",
+  "phonetic": "/ˈwɪndi/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 6,
+  "word": "warm",
+  "cn": "温暖的，暖和的",
+  "phonetic": "/wɔːm/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 6,
+  "word": "save ... for a rainy day",
+  "cn": "未雨绸缪",
+  "phonetic": "/seɪv ... fɔː ə ˈreɪni deɪ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 6,
+  "word": "money",
+  "cn": "钱",
+  "phonetic": "/ˈmʌni/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 6,
+  "word": "What's the weather like today?",
+  "cn": "今天天气怎么样？",
+  "phonetic": "/wɒts ðə ˈweðə laɪk təˈdeɪ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 6,
+  "word": "park",
+  "cn": "公园",
+  "phonetic": "/pɑːk/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 6,
+  "word": "meet",
+  "cn": "（与……）会面，集合",
+  "phonetic": "/miːt/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 6,
+  "word": "fly a kite",
+  "cn": "放风筝",
+  "phonetic": "/flaɪ ə kaɪt/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 6,
+  "word": "It's raining.",
+  "cn": "下雨了。",
+  "phonetic": ""
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 6,
+  "word": "worry",
+  "cn": "担心，担忧",
+  "phonetic": "/ˈwʌri/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 6,
+  "word": "umbrella",
+  "cn": "伞，雨伞",
+  "phonetic": "/ʌmˈbrelə/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 6,
+  "word": "there",
+  "cn": "到那里，在那里",
+  "phonetic": "/ðeə/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 7,
+  "word": "season",
+  "cn": "季节",
+  "phonetic": "/ˈsiːzən/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 7,
+  "word": "spring",
+  "cn": "春天，春季",
+  "phonetic": "/sprɪŋ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 7,
+  "word": "go boating",
+  "cn": "去划船",
+  "phonetic": "/ɡəʊ ˈbəʊtɪŋ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 7,
+  "word": "winter",
+  "cn": "冬天，冬季",
+  "phonetic": "/ˈwɪntər/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 7,
+  "word": "go skating",
+  "cn": "去溜冰，去滑冰",
+  "phonetic": "/ɡəʊ ˈskeɪtɪŋ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 7,
+  "word": "summer",
+  "cn": "夏天，夏季",
+  "phonetic": "/ˈsʌmər/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 7,
+  "word": "ice cream",
+  "cn": "冰激凌",
+  "phonetic": "/aɪs kriːm/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 7,
+  "word": "go swimming",
+  "cn": "去游泳",
+  "phonetic": "/ɡəʊ ˈswɪmɪŋ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 7,
+  "word": "autumn",
+  "cn": "秋天，秋季",
+  "phonetic": "/ˈɔːtəm/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 7,
+  "word": "go climbing",
+  "cn": "去爬山",
+  "phonetic": "/ɡəʊ ˈklaɪmɪŋ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 7,
+  "word": "new",
+  "cn": "新的",
+  "phonetic": "/njuː/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 7,
+  "word": "cold",
+  "cn": "寒冷的，冷的",
+  "phonetic": "/kəʊld/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 7,
+  "word": "bird",
+  "cn": "鸟",
+  "phonetic": "/bɜːd/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 7,
+  "word": "back",
+  "cn": "回原处",
+  "phonetic": "/bæk/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 7,
+  "word": "in",
+  "cn": "在（某段时间）内",
+  "phonetic": "/ɪn/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 7,
+  "word": "year",
+  "cn": "年",
+  "phonetic": "/jɪə/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 7,
+  "word": "plant",
+  "cn": "栽种，种植",
+  "phonetic": "/plɑːnt/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 7,
+  "word": "pick",
+  "cn": "采，摘",
+  "phonetic": "/pɪk/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 7,
+  "word": "snow",
+  "cn": "雪，积雪",
+  "phonetic": "/snəʊ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 8,
+  "word": "wear",
+  "cn": "穿，戴",
+  "phonetic": "/weə/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 8,
+  "word": "cap",
+  "cn": "（尤指有帽舌的）便帽",
+  "phonetic": "/kæp/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 8,
+  "word": "coat",
+  "cn": "外套，外衣",
+  "phonetic": "/kəʊt/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 8,
+  "word": "skirt",
+  "cn": "半身裙",
+  "phonetic": "/skɜːt/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 8,
+  "word": "trousers",
+  "cn": "裤子",
+  "phonetic": "/ˈtraʊzəz/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 8,
+  "word": "dress",
+  "cn": "连衣裙",
+  "phonetic": "/dres/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 8,
+  "word": "shirt",
+  "cn": "（男式）衬衫",
+  "phonetic": "/ʃɜːt/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 8,
+  "word": "whose",
+  "cn": "谁的",
+  "phonetic": "/huːz/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 8,
+  "word": "shorts",
+  "cn": "短裤",
+  "phonetic": "/ʃɔːts/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 8,
+  "word": "look",
+  "cn": "看来好像，显得",
+  "phonetic": "/lʊk/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 8,
+  "word": "in",
+  "cn": "穿着，戴着",
+  "phonetic": "/ɪn/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 8,
+  "word": "sunglasses",
+  "cn": "太阳镜，墨镜",
+  "phonetic": "/ˈsʌnɡlɑːsɪz/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 8,
+  "word": "why",
+  "cn": "为什么",
+  "phonetic": "/waɪ/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 8,
+  "word": "because",
+  "cn": "因为",
+  "phonetic": "/bɪˈkɒz/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 8,
+  "word": "bright",
+  "cn": "聪明的；明亮的",
+  "phonetic": "/braɪt/"
+ },
+ {
+  "grade": 4,
+  "term": 1,
+  "unit": 8,
+  "word": "clothes",
+  "cn": "衣服",
+  "phonetic": "/kləʊðz/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 1,
+  "word": "weak",
+  "cn": "虚弱的，无力的",
+  "phonetic": "/wiːk/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 1,
+  "word": "strong",
+  "cn": "强壮的",
+  "phonetic": "/strɒŋ/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 1,
+  "word": "there are",
+  "cn": "有",
+  "phonetic": "/ðeə ɑː/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 1,
+  "word": "them",
+  "cn": "它们，他们，她们",
+  "phonetic": "/ðəm/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 1,
+  "word": "from",
+  "cn": "来自",
+  "phonetic": "/frɒm/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 1,
+  "word": "party",
+  "cn": "聚会，联欢会",
+  "phonetic": "/ˈpɑːti/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 1,
+  "word": "like",
+  "cn": "像",
+  "phonetic": "/laɪk/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 1,
+  "word": "friendship",
+  "cn": "友谊",
+  "phonetic": "/ˈfrendʃɪp/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 1,
+  "word": "forest",
+  "cn": "森林",
+  "phonetic": "/ˈfɒrɪst/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 1,
+  "word": "thin",
+  "cn": "瘦的",
+  "phonetic": "/θɪn/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 1,
+  "word": "back",
+  "cn": "背部",
+  "phonetic": "/bæk/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 1,
+  "word": "angry",
+  "cn": "发怒的，生气的",
+  "phonetic": "/ˈæŋɡri/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 1,
+  "word": "one day",
+  "cn": "有朝一日",
+  "phonetic": "/wʌn deɪ/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 1,
+  "word": "how",
+  "cn": "怎样，如何",
+  "phonetic": "/haʊ/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 1,
+  "word": "Please!",
+  "cn": "求求你！",
+  "phonetic": "/pliːz/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 1,
+  "word": "Go away!",
+  "cn": "走开！",
+  "phonetic": "/ɡəʊ əˈweɪ/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 1,
+  "word": "net",
+  "cn": "网",
+  "phonetic": "/net/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 1,
+  "word": "sad",
+  "cn": "悲哀的，难过的",
+  "phonetic": "/sæd/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 1,
+  "word": "Help!",
+  "cn": "救命啊！",
+  "phonetic": "/help/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 1,
+  "word": "there is",
+  "cn": "有",
+  "phonetic": "/ðeə ɪz/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 1,
+  "word": "hole",
+  "cn": "洞",
+  "phonetic": "/həʊl/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 1,
+  "word": "kind",
+  "cn": "友好的，体贴的",
+  "phonetic": "/kaɪnd/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 1,
+  "word": "become",
+  "cn": "变成，变为",
+  "phonetic": "/bɪˈkʌm/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 2,
+  "word": "other",
+  "cn": "另外，其他",
+  "phonetic": "/ˈʌðər/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 2,
+  "word": "room",
+  "cn": "房间",
+  "phonetic": "/ruːm/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 2,
+  "word": "computer",
+  "cn": "计算机，电脑",
+  "phonetic": "/kəmˈpjuːtər/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 2,
+  "word": "swing",
+  "cn": "秋千",
+  "phonetic": "/swɪŋ/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 2,
+  "word": "playground",
+  "cn": "游戏场",
+  "phonetic": "/ˈpleɪɡraʊnd/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 2,
+  "word": "have a look",
+  "cn": "看一看",
+  "phonetic": "/hæv ə lʊk/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 2,
+  "word": "careful",
+  "cn": "小心，谨慎",
+  "phonetic": "/ˈkeəfl/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 2,
+  "word": "feel",
+  "cn": "觉得，感到",
+  "phonetic": "/fiːl/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 2,
+  "word": "take",
+  "cn": "带，拿",
+  "phonetic": "/teɪk/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 2,
+  "word": "first",
+  "cn": "第一",
+  "phonetic": "/fɜːst/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 2,
+  "word": "floor",
+  "cn": "楼层",
+  "phonetic": "/flɔː/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 2,
+  "word": "show ... around",
+  "cn": "带……参观",
+  "phonetic": "/ʃəʊ ... əˈraʊnd/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 2,
+  "word": "any",
+  "cn": "任何的，任一的",
+  "phonetic": "/ˈeni/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 2,
+  "word": "third",
+  "cn": "第三",
+  "phonetic": "/θɜːd/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 2,
+  "word": "later",
+  "cn": "以后，后来",
+  "phonetic": "/ˈleɪtər/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 2,
+  "word": "piano",
+  "cn": "钢琴",
+  "phonetic": "/piˈænəʊ/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 2,
+  "word": "second",
+  "cn": "第二",
+  "phonetic": "/ˈsekənd/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 3,
+  "word": "road",
+  "cn": "道路，公路",
+  "phonetic": "/rəʊd/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 3,
+  "word": "safety",
+  "cn": "安全，平安",
+  "phonetic": "/ˈseɪfti/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 3,
+  "word": "bus",
+  "cn": "公共汽车，巴士",
+  "phonetic": "/bʌs/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 3,
+  "word": "traffic light",
+  "cn": "交通信号灯",
+  "phonetic": "/ˈtræfɪk laɪt/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 3,
+  "word": "take",
+  "cn": "乘坐，搭乘",
+  "phonetic": "/teɪk/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 3,
+  "word": "busy",
+  "cn": "人来车往的",
+  "phonetic": "/ˈbɪzi/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 3,
+  "word": "stay",
+  "cn": "保持",
+  "phonetic": "/steɪ/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 3,
+  "word": "close",
+  "cn": "接近，靠近",
+  "phonetic": "/kləʊz/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 3,
+  "word": "cross",
+  "cn": "穿越，横过",
+  "phonetic": "/krɒs/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 3,
+  "word": "stop",
+  "cn": "停止，停下",
+  "phonetic": "/stɒp/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 3,
+  "word": "wait",
+  "cn": "等候，等待",
+  "phonetic": "/weɪt/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 3,
+  "word": "left",
+  "cn": "向左边",
+  "phonetic": "/left/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 3,
+  "word": "right",
+  "cn": "向右边",
+  "phonetic": "/raɪt/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 3,
+  "word": "safe",
+  "cn": "安全的",
+  "phonetic": "/seɪf/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 4,
+  "word": "care about",
+  "cn": "关心，关怀",
+  "phonetic": "/keə əˈbaʊt/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 4,
+  "word": "hungry",
+  "cn": "感到饿的",
+  "phonetic": "/ˈhʌŋɡri/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 4,
+  "word": "thirsty",
+  "cn": "渴的，口渴的",
+  "phonetic": "/ˈθɜːsti/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 4,
+  "word": "ill",
+  "cn": "不舒服，有病",
+  "phonetic": "/ɪl/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 4,
+  "word": "tired",
+  "cn": "疲倦的，疲劳的",
+  "phonetic": "/ˈtaɪəd/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 4,
+  "word": "hot",
+  "cn": "觉得闷热",
+  "phonetic": "/hɒt/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 4,
+  "word": "water",
+  "cn": "水",
+  "phonetic": "/ˈwɔːtər/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 4,
+  "word": "have a rest",
+  "cn": "休息一下",
+  "phonetic": "/hæv ə rest/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 4,
+  "word": "What's the matter?",
+  "cn": "怎么了？",
+  "phonetic": "/wɒts ðə ˈmætə/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 4,
+  "word": "home",
+  "cn": "到家，在家",
+  "phonetic": "/həʊm/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 4,
+  "word": "bag",
+  "cn": "包，袋",
+  "phonetic": "/bæɡ/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 4,
+  "word": "bread",
+  "cn": "面包",
+  "phonetic": "/bred/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 4,
+  "word": "dear",
+  "cn": "亲爱的",
+  "phonetic": "/dɪə/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 4,
+  "word": "set the table",
+  "cn": "摆放餐具",
+  "phonetic": "/set ðə ˈteɪbl/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 5,
+  "word": "eat out",
+  "cn": "去饭店吃饭",
+  "phonetic": "/iːt aʊt/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 5,
+  "word": "fried rice",
+  "cn": "炒饭",
+  "phonetic": "/fraɪd raɪs/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 5,
+  "word": "spring roll",
+  "cn": "春卷",
+  "phonetic": "/sprɪŋ rəʊl/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 5,
+  "word": "noodle",
+  "cn": "面条",
+  "phonetic": "/ˈnuːdl/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 5,
+  "word": "tea",
+  "cn": "茶",
+  "phonetic": "/tiː/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 5,
+  "word": "juice",
+  "cn": "果汁",
+  "phonetic": "/dʒuːs/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 5,
+  "word": "menu",
+  "cn": "菜单",
+  "phonetic": "/ˈmenjuː/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 5,
+  "word": "What would you like?",
+  "cn": "你想要什么？",
+  "phonetic": "/wɒt wʊd juː laɪk/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 5,
+  "word": "fish and chips",
+  "cn": "炸鱼薯条",
+  "phonetic": "/fɪʃ ænd tʃɪps/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 5,
+  "word": "sandwich",
+  "cn": "三明治",
+  "phonetic": "/ˈsænwɪtʃ/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 5,
+  "word": "hot dog",
+  "cn": "热狗（香肠面包）",
+  "phonetic": "/hɒt dɒɡ/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 5,
+  "word": "delicious",
+  "cn": "美味的，可口的",
+  "phonetic": "/dɪˈlɪʃəs/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 5,
+  "word": "Anything else?",
+  "cn": "还要其他东西吗？",
+  "phonetic": "/ˈeniθɪŋ els/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 5,
+  "word": "a glass of",
+  "cn": "一杯",
+  "phonetic": "/ə ɡlɑːs ɒv/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 5,
+  "word": "a cup of",
+  "cn": "一杯",
+  "phonetic": "/ə kʌp ɒv/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 5,
+  "word": "food",
+  "cn": "食物，食品",
+  "phonetic": "/fuːd/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 5,
+  "word": "next time",
+  "cn": "下次",
+  "phonetic": "/nekst taɪm/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 5,
+  "word": "hot pot",
+  "cn": "火锅",
+  "phonetic": "/hɒt pɒt/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 5,
+  "word": "takeaway box",
+  "cn": "打包盒",
+  "phonetic": ""
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 6,
+  "word": "job",
+  "cn": "工作，职业",
+  "phonetic": "/dʒɒb/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 6,
+  "word": "driver",
+  "cn": "驾驶员，司机",
+  "phonetic": "/ˈdraɪvər/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 6,
+  "word": "nurse",
+  "cn": "护士",
+  "phonetic": "/nɜːs/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 6,
+  "word": "worker",
+  "cn": "工人",
+  "phonetic": "/ˈwɜːkər/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 6,
+  "word": "teacher",
+  "cn": "教师",
+  "phonetic": "/ˈtiːtʃər/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 6,
+  "word": "doctor",
+  "cn": "医生",
+  "phonetic": "/ˈdɒktər/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 6,
+  "word": "farmer",
+  "cn": "农民",
+  "phonetic": "/ˈfɑːmər/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 6,
+  "word": "cook",
+  "cn": "厨师；烹饪，烹调",
+  "phonetic": "/kʊk/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 6,
+  "word": "police officer",
+  "cn": "警察",
+  "phonetic": "/pəˈliːs ˈɒfɪsə/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 6,
+  "word": "hospital",
+  "cn": "医院",
+  "phonetic": "/ˈhɒspɪtl/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 6,
+  "word": "parent",
+  "cn": "父亲，母亲",
+  "phonetic": "/ˈpeərənt/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 6,
+  "word": "work",
+  "cn": "工作",
+  "phonetic": "/wɜːk/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 6,
+  "word": "sick",
+  "cn": "生病的，有病的",
+  "phonetic": "/sɪk/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 6,
+  "word": "people",
+  "cn": "人，人们",
+  "phonetic": "/ˈpiːpl/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 6,
+  "word": "busy",
+  "cn": "忙碌的",
+  "phonetic": "/ˈbɪzi/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 6,
+  "word": "taxi",
+  "cn": "出租汽车，的士",
+  "phonetic": "/ˈtæksi/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 6,
+  "word": "train",
+  "cn": "火车",
+  "phonetic": "/treɪn/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 6,
+  "word": "place",
+  "cn": "地方",
+  "phonetic": "/pleɪs/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 6,
+  "word": "way",
+  "cn": "方法，方式",
+  "phonetic": "/weɪ/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 7,
+  "word": "chore",
+  "cn": "日常事务",
+  "phonetic": "/tʃɔː/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 7,
+  "word": "dish",
+  "cn": "碗，碟",
+  "phonetic": "/dɪʃ/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 7,
+  "word": "water",
+  "cn": "给……浇水",
+  "phonetic": "/ˈwɔːtər/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 7,
+  "word": "make the bed",
+  "cn": "铺床",
+  "phonetic": "/meɪk ðə bed/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 7,
+  "word": "what",
+  "cn": "多么，真，太",
+  "phonetic": "/wɒt/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 7,
+  "word": "house",
+  "cn": "房屋，房子",
+  "phonetic": "/haʊs/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 7,
+  "word": "Good job!",
+  "cn": "干得漂亮！",
+  "phonetic": "/ɡʊd dʒɒb/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 7,
+  "word": "part of",
+  "cn": "……的一部分",
+  "phonetic": "/pɑːt ɒv/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 7,
+  "word": "so",
+  "cn": "所以",
+  "phonetic": "/səʊ/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 7,
+  "word": "half",
+  "cn": "一半，半",
+  "phonetic": "/hɑːf/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 7,
+  "word": "past",
+  "cn": "晚于，在……之后",
+  "phonetic": "/pɑːst/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 7,
+  "word": "weekend",
+  "cn": "周末",
+  "phonetic": "/ˌwiːkˈend/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 8,
+  "word": "kitchen",
+  "cn": "厨房",
+  "phonetic": "/ˈkɪtʃɪn/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 8,
+  "word": "milk",
+  "cn": "牛奶",
+  "phonetic": "/mɪlk/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 8,
+  "word": "tomato",
+  "cn": "番茄，西红柿",
+  "phonetic": "/təˈmɑːtəʊ/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 8,
+  "word": "potato",
+  "cn": "马铃薯，土豆",
+  "phonetic": "/pəˈteɪtəʊ/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 8,
+  "word": "chicken",
+  "cn": "鸡肉",
+  "phonetic": "/ˈtʃɪkɪn/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 8,
+  "word": "egg",
+  "cn": "鸡蛋",
+  "phonetic": "/eɡ/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 8,
+  "word": "birthday",
+  "cn": "生日",
+  "phonetic": "/ˈbɜːθdeɪ/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 8,
+  "word": "soup",
+  "cn": "汤",
+  "phonetic": "/suːp/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 8,
+  "word": "him",
+  "cn": "他",
+  "phonetic": "/hɪm/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 8,
+  "word": "really",
+  "cn": "十分，非常",
+  "phonetic": "/ˈrɪəli/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 8,
+  "word": "cut",
+  "cn": "切，割",
+  "phonetic": "/kʌt/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 8,
+  "word": "meat",
+  "cn": "肉",
+  "phonetic": "/miːt/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 8,
+  "word": "I can't wait!",
+  "cn": "我等不及了！",
+  "phonetic": "/aɪ kɑːnt weɪt/"
+ },
+ {
+  "grade": 4,
+  "term": 2,
+  "unit": 8,
+  "word": "get",
+  "cn": "去取",
+  "phonetic": "/ɡet/"
+ }
+]
