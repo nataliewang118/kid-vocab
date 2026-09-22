@@ -1133,6 +1133,8 @@ function buildCn2enPool(){
 // 句子关的池子：正常英译中那批（到期+新词+热身+送分题），只多一道「有句子」过滤。
 // 含「...」的通配词（show ... around / put...in order）没进 SENTS，自然被滤掉。
 function hasSent(w){ return SENTS[w.word.toLowerCase()] !== undefined; }
+// 整句念出来用：SENTS 里存的是挖空句，把 ___ 填回那个词
+function sentText(w){ var s = SENTS[w.word.toLowerCase()]; return s ? s.replace('___', w.word) : w.word; }
 function buildSentPool(exclude){ return buildPool(exclude).filter(hasSent); }
 
 // 中文题干：多义释义只取第一个义项（"苹果；苹果树" → "苹果"），四个选项才不会都像对的
@@ -1359,7 +1361,10 @@ function answer(btn, ok, chosen){
   Q.answered = true; syncSpeakBtn();
   // 考到的词出队：答对答错都出。答错的词已经排到明天复习，留着只会明天再考一遍
   if(cn2en) dropFromCn2en(w.id);
-  if(cn2en || sent) speak(w.word);
+  // 句子关答对了念**整句**（她刚填的那个词在句子里长什么样）；答错还是只念那个词，
+  // 免得跟下面「把词填回整句」那行字抢注意力
+  if(cn2en) speak(w.word);
+  else if(sent) speak(ok ? sentText(w) : w.word);
 
   if(ok){
     Q.locked = true;
@@ -1450,7 +1455,7 @@ function answer(btn, ok, chosen){
 
     // 句子关不吐中文：把答案填回整句，比「word = 中文」更贴合句子填空
     var sub = sent
-      ? '<b>'+w.word+'</b> · '+(SENTS[w.word.toLowerCase()]||'').replace('___', w.word)
+      ? '<b>'+w.word+'</b> · '+sentText(w)
       : '<b>'+w.word+'</b> = '+w.cn;
     $('q-fb').innerHTML =
       '<div class="msg bad">❌ 假线索</div>'+
@@ -1593,7 +1598,8 @@ $('case-list').onclick = function(e){
   if(w) speak(w.word);
 };
 $('btn-cases-back').onclick = function(){ show('scr-home'); };
-$('btn-speak').onclick = function(){ if(Q && Q.cur) speak(Q.cur.word); };
+// 「再听一遍」在句子关重念整句——刚才念的就是整句，这里再念单词就对不上了
+$('btn-speak').onclick = function(){ if(Q && Q.cur) speak(Q.dir === 'sent' ? sentText(Q.cur) : Q.cur.word); };
 $('btn-cfg').onclick = openCfg;
 $('btn-cfg-back').onclick = function(){ show('scr-home'); };
 $('btn-back').onclick = function(){ show('scr-home'); };

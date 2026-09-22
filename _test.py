@@ -743,12 +743,18 @@ try{
   tap(true);
   t('答对线索 +1', S.app.todayClues === c0 + 1);
   t('句子关的词不进中译英队列', S.app.cn2en.length === 0);
-  t('答完才念答案', spoken.length === 1 && spoken[0] === Q.cur.word);
+  t('答完才念答案', spoken.length === 1);
+  // 句子关答对念的是**整句**（把 ___ 填回那个词），不是孤零零一个词
+  t('答对念整句', spoken[0] === SENTS[Q.cur.word.toLowerCase()].replace('___', Q.cur.word));
+  t('念出来的整句没有空', spoken[0].indexOf('___') < 0);
+  $('btn-speak').onclick();
+  t('句子关「再听一遍」也念整句', spoken.length === 2 && spoken[1] === spoken[0]);
 
   // 答错：反馈不吐中文，把词填回整句
   serveWord(sp[1]);
   tap(false);
   var fb = $('q-fb').textContent;
+  t('答错只念那个词、不念整句', spoken.length === 3 && spoken[2] === Q.cur.word);
   t('答错反馈不露中文词义', fb.indexOf(Q.cur.cn) < 0);
   t('答错反馈含填回整句', fb.indexOf(SENTS[Q.cur.word.toLowerCase()].replace('___', Q.cur.word)) >= 0);
 
