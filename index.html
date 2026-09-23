@@ -1063,7 +1063,10 @@ function renderHome(){
   // 按钮只负责进选方向页，灰不灰交给那边判（中译英要靠英译中解锁）
   $('btn-start').textContent = '开始查案';
   $('btn-start').disabled = false;
-  $('pool-hint').innerHTML = '只限时间，不限题量 · 今天还能新增 <b>' + newRoom() + '</b> 个新词';
+  // 「还剩几个新词」是给家长看的：见底了每天的新词额度就白费了，该补词了
+  var nl = newLeft();
+  $('pool-hint').innerHTML = '只限时间，不限题量 · 今天还能新增 <b>' + newRoom() + '</b> 个新词 · ' +
+    (nl ? '5 年级还剩 <b>' + nl + '</b> 个没学' : '<b>5 年级新词学完了，该加新词啦</b>');
 }
 
 // 选方向页。英译中常开；中译英要今天先刷过一轮英译中、且队列里有词
@@ -1089,6 +1092,13 @@ function renderDir(){
 function newRoom(){
   rollDay();
   return Math.max(0, S.cfg.newLimit - (S.app.todayNew || 0));
+}
+// 5 年级新词还剩几个没露过面。这个数额度无关——**它归零了，"每天 N 个"就白费了**
+// （池子里没有新词可发，她每天只剩复习和热身），所以首页要提示，家长看着补词。
+function newLeft(){
+  var n = 0;
+  WORDS.forEach(function(w){ if(w.grade >= 5 && !S.uw[w.id]) n++; });
+  return n;
 }
 function buildPool(exclude){
   rollDay();

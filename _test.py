@@ -68,6 +68,15 @@ t('剩 3 个额度', newRoom()===3);
 S.app.todayDate = '2000-01-01';
 t('跨天额度重置', newRoom()===8 && S.app.todayNew===0);
 
+// 首页提示的「5 年级还剩几个没学」：碰过（有 uw 记录）就不算，跟当天额度是两回事
+S = blank();
+var g5all = WORDS.filter(function(w){ return w.grade>=5; });
+t('新词剩余=5年级总数', newLeft()===g5all.length && g5all.length>0);
+rec(g5all[0].id);
+t('碰过的词不算剩余', newLeft()===g5all.length-1);
+S.app.todayNew = 8;                       // 额度用完不影响"还剩几个"
+t('剩余不受当天额度影响', newLeft()===g5all.length-1);
+
 var p3 = buildPool({'w0':1,'w1':1,'w2':1});
 t('exclude 排除生效', !p3.some(function(w){return w.id==='w0'||w.id==='w1'||w.id==='w2';}));
 
