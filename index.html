@@ -254,6 +254,18 @@ body{
 .rgrid .stat{padding:15px 8px}
 .clue-line{font-size:15px;color:var(--gold);font-weight:700;min-height:22px}
 
+/* ---------- 神探最快结案榜（英译中速度 TOP5） ---------- */
+.speed-board{background:var(--card);border:1px solid var(--gold);border-radius:18px;
+  padding:13px 15px 6px;margin-bottom:14px;text-align:left}
+.speed-head{font-size:13.5px;font-weight:800;color:var(--gold);margin-bottom:8px}
+.spd-row{display:flex;align-items:center;gap:10px;padding:7px 2px;border-bottom:1px dashed var(--line)}
+.spd-row:last-child{border-bottom:0}
+.spd-row .spd-r{width:24px;text-align:center;font-size:16px;flex:0 0 24px}
+.spd-row .spd-n{font-size:16px;font-weight:800}
+.spd-row .spd-when{margin-left:auto;font-size:12px;color:var(--muted);white-space:nowrap}
+.spd-row.me .spd-n{color:var(--gold)}
+.spd-row.me .spd-when{color:var(--gold)}
+
 /* ---------- 设置 ---------- */
 #scr-cfg .wrap{padding-top:20px}
 .ctl{display:flex;align-items:center;justify-content:space-between;padding:14px 0;border-bottom:1px solid var(--line)}
@@ -369,6 +381,10 @@ textarea{width:100%;height:110px;background:var(--night);color:var(--ink);border
       <div class="stat"><div class="num" id="r-wrong">0</div><div class="lbl">假线索</div></div>
       <div class="stat hot"><div class="num" id="r-best">0</div><div class="lbl">最长连对</div></div>
     </div>
+    <div class="speed-board" id="r-speed">
+      <div class="speed-head">🏆 神探最快结案 TOP5</div>
+      <div id="r-speed-list"></div>
+    </div>
     <div id="r-cases"></div>
     <button class="btn primary" id="btn-back">回到事务所</button>
   </div>
@@ -474,6 +490,7 @@ function blank(){
     // active = 她正在查的那个系列（在图鉴里点页签切换）
     zoo:{ active:'', by:{} },
     uw:{},
+    speed:[],
     app:{ streak:0, lastDay:'', todayDate:'', todayClues:0, todayNew:0, sessions:0,
           // cn2en：中译英队列（词 id）。队首是**当天**英译中答对的，后面是没考到的存货。
           //   跨天不清空——今天没轮到的词明天接着考，不然会漏。考到就出队。
@@ -500,6 +517,8 @@ function load(){
     o.zoo = Object.assign(b.zoo, o.zoo||{});
     o.zoo.by = o.zoo.by || {};
     o.uw  = o.uw || {};
+    // 速度榜：老格式（{n} 记的是答对数）跟现在（{r} 每分钟答对数）口径不同，直接丢掉
+    o.speed = (o.speed || []).filter(function(e){ return e && e.r > 0; });
     return migrateZoo(o);
   }catch(e){ return blank(); }
 }
@@ -1470,6 +1489,37 @@ function advance(){
   $('q-fb').innerHTML = '';
   nextQ();
 }
+
+/* ---------- 神探最快结案榜（英译中速度） ---------- */
+var SPEED_TOP = 5;
+// 记一轮英译中的**每分钟答对数**，取历史最高的 5 次。
+// 用速率而不是答对数，是因为每轮时长可调（设置里 1-15 分钟）——记答对数的话，
+// 3 分钟的轮次随便就压过 1 分钟的，将来谁把时长调大旧记录又全被压掉。
+// 答错会停住点「继续」，所以这个速率本身就又快又准，不再叠「全对」门槛（叠了反而一错整轮作废）。
+// 返回刚入榜那条的时间戳，结算页拿它把「本轮」那条标出来。
+function recordSpeed(n, min){
+  if(!S.speed) S.speed = [];
+  if(!(min > 0)) return 0;
+  var at = Date.now(), r = Math.round(n / min * 10) / 10;
+  S.speed.push({ r:r, at:at });
+  S.speed.sort(function(a,b){ return b.r - a.r; });
+  if(S.speed.length > SPEED_TOP) S.speed.length = SPEED_TOP;
+  return at;
+}
+function renderSpeed(meAt){
+  var box = $('r-speed'), list = $('r-speed-list');
+  if(!S.speed || !S.speed.length){ box.style.display = 'none'; return; }
+  box.style.display = '';
+  var medal = ['🥇','🥈','🥉','4','5'];
+  list.innerHTML = S.speed.map(function(e, i){
+    var me = e.at === meAt;
+    return '<div class="spd-row' + (me ? ' me' : '') + '">' +
+      '<span class="spd-r">' + medal[i] + '</span>' +
+      '<span class="spd-n">每分钟 ' + e.r + ' 个</span>' +
+      '<span class="spd-when">' + whenLabel(e.at) + (me ? ' · 本轮' : '') + '</span>' +
+      '</div>';
+  }).join('');
+}
 function finish(){
   if(!Q) return;
   clearInterval(Q.timer);
@@ -1487,6 +1537,10 @@ function finish(){
     S.app.lastDay = td;
     S.app.sessions++;
   }
+  // 速度榜：只记英译中、只记答对过题的轮次（0 对的不入榜）。用 Q0.total_ms 而不是
+  // 当下的 S.cfg.minutes——设置若在本轮中途被改过，得按这轮**实际**的时长算。
+  var speedAt = (Q0.dir === 'en2cn' && Q0.correct > 0)
+    ? recordSpeed(Q0.correct, Q0.total_ms / 60000) : 0;
   save();
 
   var done = Q0.correct + Q0.wrong;
@@ -1525,6 +1579,7 @@ function finish(){
   }
   $('r-zoo-lab').textContent  = lab;
   $('r-zoo-clue').textContent = txt;
+  renderSpeed(speedAt);
   show('scr-result');
 }
 
@@ -1640,7 +1695,17 @@ if(!S.pet.name){ show('scr-name'); } else { show('scr-home'); }
 
 /* 离线缓存（sw.js）。file:// 直接打开时浏览器不给注册，所以判一下协议。 */
 if('serviceWorker' in navigator && location.protocol.indexOf('http') === 0){
-  navigator.serviceWorker.register('sw.js');
+  // 新版 sw.js 装好接管时**自动刷一次**，省得"打开两次才看到新版本"。
+  // 只在本来就有 SW 接管的情况下才刷（首次安装不算），再用 sessionStorage 兜一道，
+  // 万一 sw.js 反复重装也不会进死循环
+  if(navigator.serviceWorker.controller){
+    navigator.serviceWorker.addEventListener('controllerchange', function(){
+      if(sessionStorage.getItem('sw-reloaded')) return;
+      sessionStorage.setItem('sw-reloaded', '1');
+      location.reload();
+    });
+  }
+  navigator.serviceWorker.register('sw.js').catch(function(){});
 }
 </script>
 </body>

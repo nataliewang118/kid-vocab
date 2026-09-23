@@ -678,6 +678,52 @@ t('没新添东西就不出现那行', $('r-cases').innerHTML==='' && !$('r-case
 t('没新添时结算页照常显示',
   $('r-correct').textContent==='1' && $('scr-result').classList.contains('on'));
 
+// 速度榜（英译中）：只记英译中、按**每分钟答对数**降序、封顶 5 条、本轮标出来。
+// 关键在"每分钟"——不然 3 分钟的轮次会无脑压过 1 分钟的
+try{
+S = blank(); S.cfg.sfx = false; S.cfg.minutes = 3; S.app.todayDate = todayStr();
+S.speed = [{r:1, at:Date.now()-2*864e5},{r:0.5, at:Date.now()-864e5}];
+startSession();                                             // 英译中，3 分钟
+S.app.avgMs = 2000; S.app.msN = 20;
+for(var _si=0;_si<6;_si++){ serveWord(WORDS[_si]); at(500); tap(true); }
+finish();
+t('速度榜记下本轮速率 每分钟2个', S.speed.length===3 && S.speed[0].r===2);
+t('速度榜按速率降序', S.speed[0].r>=S.speed[1].r && S.speed[1].r>=S.speed[2].r);
+t('结算页画出速度榜', document.querySelectorAll('#r-speed-list .spd-row').length===3);
+t('榜上写的是每分钟', $('r-speed-list').textContent.indexOf('每分钟 2 个')>=0);
+t('本轮那条被标出来', !!$('r-speed-list').querySelector('.spd-row.me'));
+
+// 时长不同也能公平比：1 分钟答 6 个(6/分) 该压过 3 分钟答 12 个(4/分)
+S.speed = [];
+recordSpeed(12, 3);
+recordSpeed(6, 1);
+t('短时长高速度能压过长时长', S.speed[0].r===6 && S.speed[1].r===4);
+t('速率带一位小数', (function(){ S.speed=[]; recordSpeed(10, 3); return S.speed[0].r===3.3; })());
+
+S.speed = [];
+['1','2','3','4','5'].forEach(function(v,i){ recordSpeed(+v, 1); });
+recordSpeed(9, 1);
+t('速度榜封顶 5 条', S.speed.length===5 && S.speed[0].r===9);
+
+// 老格式（{n} 记答对数）读进来该被丢掉，不然口径混着比
+var _ls = localStorage.getItem(KEY);
+S.speed = [{r:9, at:Date.now()}]; save();
+var _raw = JSON.parse(localStorage.getItem(KEY)); _raw.speed.push({n:999, at:Date.now()});
+localStorage.setItem(KEY, JSON.stringify(_raw));
+S = load();
+t('老格式速度记录被丢弃', S.speed.length===1 && S.speed[0].r===9);
+localStorage.setItem(KEY, _ls);
+
+// 中译英不进速度榜
+S = blank(); S.cfg.sfx = false; S.cfg.minutes = 3; S.app.todayDate = todayStr();
+S.app.doneEn2cn = 1; S.app.cn2en = [WORDS[0].id, WORDS[1].id];
+startSession('cn2en');
+S.app.avgMs = 2000; S.app.msN = 20;
+serveWord(WORDS[0]); at(500); tap(true);
+finish();
+t('中译英不进速度榜', !S.speed.length);
+}catch(e){ t('速度榜段抛异常: ' + e.message, false); }
+
 S = blank(); S.cfg.sfx = false; Q = null;   // 后面音效段别被残留的定时器搅和
 
 // 设置里的「清空全部数据」：新加的悬案簿也得跟着清干净
