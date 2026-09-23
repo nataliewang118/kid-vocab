@@ -8,6 +8,10 @@ TEST = r"""
 var log=[], err=[];
 window.onerror=function(m){ err.push(String(m)); };
 function t(n,c){ log.push((c?'PASS ':'FAIL ')+n); }
+// 真词库的原件。下面的段落会拿假词库覆盖 WORDS，这里先留个底。
+// ⚠️ 后面那个叫 REAL_WORDS 的**不是**真词库——它在 WORDS 已经被换成假词库之后才取的，
+// 是历史遗留的错名。要真词库请用 ORIG_WORDS。
+var ORIG_WORDS = WORDS;
 
 /* ---------- 一、真实词库：格式 + 连答 60 题 ---------- */
 try{
@@ -1017,6 +1021,69 @@ t('✕ 退出回首页', $('scr-home').classList.contains('on'));
 Q = null;                  // 把挂着的 advance 定时器变成空操作，后面的断言不受影响
 WORDS = REAL_WORDS;
 S.cfg.sfx = false;
+
+/* ---------- 十、词库来源开关（一整册关得掉，但学过的照常复习） ---------- */
+try{
+  WORDS = ORIG_WORDS;                    // 这一段必须用真词库，假词库里没有 book
+  t('每个词的 book 字段都在', WORDS.every(function(w){ return !!w.book; }));
+  var bk = bookList();
+  t('设置页列出 8 册', bk.length===8);
+  t('册的先后是 3A..6Bv1', bk.join(',')==='3A,3B,4A,4B,5A,5Bv1,6Av1,6Bv1');
+  t('每册都登记了中文名', bk.every(function(k){ return !!BOOK_LABEL[k]; }));
+
+  S = blank(); S.cfg.newLimit = 8;
+  t('默认一册都没关', Object.keys(S.cfg.off).length===0);
+  var all5 = WORDS.filter(function(w){ return w.grade>=5; }).length;
+  t('默认 newLeft = 五、六年级全部新词', newLeft()===all5);
+
+  var b5b = WORDS.filter(function(w){ return w.book==='5Bv1'; });
+  S.cfg.off['5Bv1'] = 1;
+  t('关掉 5Bv1 后 newLeft 正好少一册', newLeft()===all5-b5b.length);
+  t('offNewLeft 报出被关那一册的词数', offNewLeft()===b5b.length);
+
+  var pOff = buildPool();
+  t('关掉 5Bv1 后池子里没有 5Bv1 的词',
+    pOff.every(function(w){ return w.book!=='5Bv1'; }));
+  t('关掉 5Bv1 不误伤别的册',
+    pOff.some(function(w){ return w.grade>=5 && w.book!=='5Bv1'; }));
+  t('关掉 5Bv1 不误伤低年级热身',
+    pOff.filter(function(w){ return w.grade<5; }).length===40);
+
+  // 这条是给家长看的承诺：勾来勾去是安全的，已经学过的不会被动
+  var learned = b5b[0];
+  rec(learned.id).nextReview = Date.now() - 1000;
+  t('关掉整册后，那册里学过的词照样到期复习',
+    buildPool().some(function(w){ return w.id===learned.id; }));
+
+  bk.forEach(function(k){ S.cfg.off[k] = 1; });
+  t('全部关掉就没有新词了', newLeft()===0);
+  t('全部关掉时 offNewLeft 报出全部', offNewLeft()===all5-1);   // 上面那条 learned 已算学过
+  t('全部关掉后池子里没有没学过的五六年级词',
+    buildPool().every(function(w){ return !(w.grade>=5 && !S.uw[w.id]); }));
+
+  // 设置页
+  S.cfg.off = {}; openCfg();
+  t('设置页画出 8 个来源开关',
+    document.querySelectorAll('#cfg-books .brow').length===8);
+  t('没关的那行显示「开」',
+    document.querySelector('#cfg-books [data-book="5Bv1"]').textContent.indexOf('开')>=0);
+  document.querySelector('#cfg-books [data-book="5Bv1"]').click();
+  t('点一下就把那一册关掉', !!S.cfg.off['5Bv1']);
+  t('关掉那行改显示「关」',
+    document.querySelector('#cfg-books [data-book="5Bv1"]').textContent.indexOf('关')>=0);
+  document.querySelector('#cfg-books [data-book="5Bv1"]').click();
+  t('再点一下就开回来', !S.cfg.off['5Bv1']);
+  t('开关状态存进了存档', JSON.parse(localStorage.getItem(KEY)).cfg.off['5Bv1']===undefined);
+
+  // 老存档里没有 off 这个字段，不能炸
+  var oldS = blank(); delete oldS.cfg.off;
+  localStorage.setItem(KEY, JSON.stringify(oldS));
+  var back = load();
+  t('老存档载入后 off 补成空对象',
+    !!back && !!back.cfg && typeof back.cfg.off==='object' &&
+    Object.keys(back.cfg.off).length===0);
+  localStorage.removeItem(KEY);
+}catch(e){ t('词库来源段抛异常: '+e.message, false); }
 
 /* ---------- 九、音效 ---------- */
 S = blank();

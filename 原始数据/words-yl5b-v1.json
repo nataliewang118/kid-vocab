@@ -1,0 +1,1210 @@
+[
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 9,
+  "word": "prince",
+  "cn": "王子",
+  "phonetic": "/prɪns/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 9,
+  "word": "fairy",
+  "cn": "仙女",
+  "phonetic": "/ˈferi/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 9,
+  "word": "why",
+  "cn": "为什么",
+  "phonetic": "/waɪ/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 9,
+  "word": "because",
+  "cn": "因为",
+  "phonetic": "/bɪˈkɒz/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 9,
+  "word": "clothes",
+  "cn": "衣服；服装",
+  "phonetic": "/kləʊðz/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 9,
+  "word": "let",
+  "cn": "允许，让；使",
+  "phonetic": "/let/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 9,
+  "word": "put on",
+  "cn": "穿上，戴上",
+  "phonetic": "/ˈpʊt ɑːn/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 9,
+  "word": "before",
+  "cn": "（时间上）在……之前，早于；（位置）在……前面",
+  "phonetic": "/bɪˈfɔː(r)/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 9,
+  "word": "have to",
+  "cn": "不得不，必须",
+  "phonetic": "/ˈhæv tə/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 9,
+  "word": "try on",
+  "cn": "试穿，试试看",
+  "phonetic": "/traɪ ɒn/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 9,
+  "word": "fit",
+  "cn": "合适，合身",
+  "phonetic": "/fɪt/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 9,
+  "word": "take off",
+  "cn": "脱下；（飞机等）起飞；摘掉",
+  "phonetic": "/ˈteɪk ɒf/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 9,
+  "word": "mushroom",
+  "cn": "蘑菇",
+  "phonetic": "/ˈmʌʃˌrum/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 9,
+  "word": "late",
+  "cn": "晚；迟",
+  "phonetic": "/leɪt/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 9,
+  "word": "pick",
+  "cn": "采；摘；采集",
+  "phonetic": "/pɪk/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 9,
+  "word": "understand",
+  "cn": "明白，理解",
+  "phonetic": "/ˌʌndərˈstænd/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 9,
+  "word": "be bad for",
+  "cn": "有害的；对……有害的",
+  "phonetic": "/bi bæd fɔː(r)/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 9,
+  "word": "leave ... behind",
+  "cn": "留下，丢下",
+  "phonetic": "/liːv bɪˈhaɪnd/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 10,
+  "word": "far from",
+  "cn": "离……远；远离",
+  "phonetic": "/fɑː(r) frəm/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 10,
+  "word": "moon",
+  "cn": "月亮；月球",
+  "phonetic": "/muːn/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 10,
+  "word": "street",
+  "cn": "大街；街道",
+  "phonetic": "/striːt/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 10,
+  "word": "near",
+  "cn": "距离近；在……附近",
+  "phonetic": "/nɪə(r)/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 10,
+  "word": "city",
+  "cn": "城市",
+  "phonetic": "/ˈsɪti/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 10,
+  "word": "by ...",
+  "cn": "乘（汽车、火车等）",
+  "phonetic": "/baɪ/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 10,
+  "word": "bus",
+  "cn": "公共汽车",
+  "phonetic": "/bʌs/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 10,
+  "word": "on foot",
+  "cn": "走路，步行",
+  "phonetic": "/ɒn fʊt/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 10,
+  "word": "metro",
+  "cn": "地铁",
+  "phonetic": "/ˈmetroʊ/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 10,
+  "word": "taxi",
+  "cn": "出租汽车",
+  "phonetic": "/ˈtæksi/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 10,
+  "word": "bike",
+  "cn": "自行车，脚踏车；骑自行车",
+  "phonetic": "/baɪk/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 10,
+  "word": "plane",
+  "cn": "飞机",
+  "phonetic": "/pleɪn/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 10,
+  "word": "ship",
+  "cn": "（大）船；轮船",
+  "phonetic": "/ʃɪp/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 10,
+  "word": "train",
+  "cn": "火车；培训",
+  "phonetic": "/treɪn/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 10,
+  "word": "ride",
+  "cn": "骑（乘车或骑车）；驾驶",
+  "phonetic": "/raɪd/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 10,
+  "word": "show",
+  "cn": "给人看，出示；指引；表明；演出；展示，展览",
+  "phonetic": "/ʃəʊ/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 10,
+  "word": "young",
+  "cn": "年轻的；岁数不大的",
+  "phonetic": "/jʌŋ/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 10,
+  "word": "basket",
+  "cn": "篮；筐",
+  "phonetic": "/ˈbɑːskɪt/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 11,
+  "word": "ask the way",
+  "cn": "问路",
+  "phonetic": "/ɑːsk ðə weɪ/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 11,
+  "word": "get to",
+  "cn": "到达",
+  "phonetic": "/ɡet tu/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 11,
+  "word": "take",
+  "cn": "搭乘，乘坐",
+  "phonetic": "/teɪk/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 11,
+  "word": "get on",
+  "cn": "上；上车；有进步",
+  "phonetic": "/ɡet ɑːn/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 11,
+  "word": "station",
+  "cn": "（车）站；站，所，局",
+  "phonetic": "/ˈsteɪʃn/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 11,
+  "word": "get off",
+  "cn": "下车",
+  "phonetic": "/ɡet ɒf/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 11,
+  "word": "walk",
+  "cn": "行走，散步",
+  "phonetic": "/wɔːk/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 11,
+  "word": "bookshop",
+  "cn": "书店",
+  "phonetic": "/ˈbʊkʃɒp/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 11,
+  "word": "next to",
+  "cn": "紧邻；在……近旁",
+  "phonetic": "/ˈnekst tu；ˈnekst tə/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 11,
+  "word": "sun",
+  "cn": "太阳，阳光",
+  "phonetic": "/sʌn/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 11,
+  "word": "ask ... for help",
+  "cn": "向……求助",
+  "phonetic": "/ɑːsk fɔː(r) help/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 11,
+  "word": "excuse me",
+  "cn": "劳驾；对不起；打扰一下",
+  "phonetic": "/ɪkˈskjuz mi/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 11,
+  "word": "along",
+  "cn": "沿着，顺着",
+  "phonetic": "/əˈlɒŋ/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 11,
+  "word": "turn right",
+  "cn": "向右转",
+  "phonetic": "/tɜːn raɪt/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 11,
+  "word": "traffic light",
+  "cn": "交通灯",
+  "phonetic": "/ˈtræfɪk laɪt/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 11,
+  "word": "on your right",
+  "cn": "在你的右侧",
+  "phonetic": "/ɒn jɔː(r) raɪt/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 11,
+  "word": "cinema",
+  "cn": "电影院",
+  "phonetic": "/ˈsɪnəmə/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 11,
+  "word": "hospital",
+  "cn": "医院",
+  "phonetic": "/ˈhɒspɪtl/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 11,
+  "word": "shop",
+  "cn": "商店",
+  "phonetic": "/ʃɒp/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 11,
+  "word": "zoo",
+  "cn": "动物园",
+  "phonetic": "/zuː/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 11,
+  "word": "turn left",
+  "cn": "向左转",
+  "phonetic": "/tɜːn left/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 11,
+  "word": "supermarket",
+  "cn": "超市",
+  "phonetic": "/ˈsjuːpəmɑːkɪt/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 11,
+  "word": "film",
+  "cn": "电影，影片",
+  "phonetic": "/fɪlm/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 11,
+  "word": "stop",
+  "cn": "车站",
+  "phonetic": "/ˈbʌs stɒp/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 11,
+  "word": "full",
+  "cn": "满的，充满的；饱的",
+  "phonetic": "/fʊl/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 11,
+  "word": "over",
+  "cn": "结束；穿过；多于",
+  "phonetic": "/ˈəʊvə(r)/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 12,
+  "word": "see the doctor",
+  "cn": "看医生，看病",
+  "phonetic": "/siː ðə ˈdɒktə(r)/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 12,
+  "word": "feel",
+  "cn": "觉得；感到",
+  "phonetic": "/fiːl/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 12,
+  "word": "check",
+  "cn": "检查；核实",
+  "phonetic": "/tʃɛk/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 12,
+  "word": "should",
+  "cn": "（常用于纠正别人）应该，应当",
+  "phonetic": "/ʃʊd , ʃəd/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 12,
+  "word": "have a rest",
+  "cn": "休息一下",
+  "phonetic": "/hæv ə rest/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 12,
+  "word": "take medicine",
+  "cn": "吃药",
+  "phonetic": "/teɪk ˈmedsn/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 12,
+  "word": "drink water",
+  "cn": "喝水",
+  "phonetic": "/drɪŋk ˈwɔːtə(r)/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 12,
+  "word": "toothache",
+  "cn": "牙疼，牙痛",
+  "phonetic": "/ˈtuːθeɪk/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 12,
+  "word": "dentist",
+  "cn": "牙医",
+  "phonetic": "/ˈdɛntɪst/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 12,
+  "word": "anything",
+  "cn": "任何事物；任何东西",
+  "phonetic": "/ˈeniθɪŋ/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 12,
+  "word": "brush one's teeth",
+  "cn": "刷牙",
+  "phonetic": "/brʌʃ wʌnz tiːθ/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 12,
+  "word": "bedtime",
+  "cn": "就寝时间",
+  "phonetic": "/ˈbɛdˌtaɪm/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 12,
+  "word": "giraffe",
+  "cn": "长颈鹿",
+  "phonetic": "/dʒəˈrɑːf/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 12,
+  "word": "point at",
+  "cn": "指着，指向",
+  "phonetic": "/pɔɪnt æt/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 12,
+  "word": "neck",
+  "cn": "脖子；颈",
+  "phonetic": "/nek/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 13,
+  "word": "parent",
+  "cn": "父亲；母亲；家长",
+  "phonetic": "/ˈperənt/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 13,
+  "word": "clean",
+  "cn": "打扫；把……弄干净",
+  "phonetic": "/kliːn/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 13,
+  "word": "cook",
+  "cn": "做（饭）,烧（菜）",
+  "phonetic": "/kʊk/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 13,
+  "word": "sweep the floor",
+  "cn": "扫地",
+  "phonetic": "/swiːp ðə flɔː(r)/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 13,
+  "word": "busy",
+  "cn": "忙于；忙的；忙碌的；热闹的",
+  "phonetic": "/ˈbɪzi/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 13,
+  "word": "wash the dishes",
+  "cn": "洗碗",
+  "phonetic": "/wɒʃ ðə ˈdɪʃɪz/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 13,
+  "word": "make the bed",
+  "cn": "整理床铺",
+  "phonetic": "/meɪk ðə bed/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 13,
+  "word": "grow",
+  "cn": "种植；生长，成长；发育",
+  "phonetic": "/ɡrəʊ/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 13,
+  "word": "garden",
+  "cn": "花园；菜园",
+  "phonetic": "/ˈɡɑːdn/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 13,
+  "word": "sweet",
+  "cn": "含糖的；甜的",
+  "phonetic": "/swiːt/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 13,
+  "word": "pest",
+  "cn": "害虫",
+  "phonetic": "/pɛst/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 13,
+  "word": "ladybird",
+  "cn": "瓢虫",
+  "phonetic": "/ˈleɪdibɜ:rd/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 13,
+  "word": "go away",
+  "cn": "走了，离开",
+  "phonetic": "/ɡəʊ əˈweɪ/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 14,
+  "word": "game",
+  "cn": "游戏；比赛；运动",
+  "phonetic": "/ɡeɪm/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 14,
+  "word": "smell",
+  "cn": "闻到，嗅到(气味);闻",
+  "phonetic": "/smel/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 14,
+  "word": "meat",
+  "cn": "肉类；（某种）食用肉",
+  "phonetic": "/miːt/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 14,
+  "word": "vegetable",
+  "cn": "蔬菜",
+  "phonetic": "/ˈvedʒtəbl/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 14,
+  "word": "tomato",
+  "cn": "西红柿",
+  "phonetic": "/təˈmɑːtəʊ/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 14,
+  "word": "potato",
+  "cn": "马铃薯；土豆",
+  "phonetic": "/pəˈteɪtəʊ/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 14,
+  "word": "I can't wait!",
+  "cn": "我等不及了！",
+  "phonetic": "/aɪ kɑːnt weɪt/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 14,
+  "word": "look for",
+  "cn": "寻找；寻求",
+  "phonetic": "/lʊk fɔː(r)/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 14,
+  "word": "ready",
+  "cn": "准备好，准备完毕",
+  "phonetic": "/ˈredi/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 14,
+  "word": "yummy",
+  "cn": "好吃的，美味的",
+  "phonetic": "/ˈjʌmi/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 14,
+  "word": "love",
+  "cn": "喜欢，喜爱",
+  "phonetic": "/lʌv/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 14,
+  "word": "bread",
+  "cn": "面包",
+  "phonetic": "/bred/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 14,
+  "word": "win",
+  "cn": "获胜；赢得；获得",
+  "phonetic": "/wɪn/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 14,
+  "word": "yeah",
+  "cn": "是的，对的；太好了",
+  "phonetic": "/jeə/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 14,
+  "word": "angry",
+  "cn": "生气的",
+  "phonetic": "/ˈæŋɡri/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 14,
+  "word": "spot",
+  "cn": "斑，点",
+  "phonetic": "/spɑ:t/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 14,
+  "word": "catch",
+  "cn": "抓住；捕捉；接住；染疾",
+  "phonetic": "/kætʃ/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 14,
+  "word": "drive ... away",
+  "cn": "赶走",
+  "phonetic": "/draɪv əˈweɪ/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 15,
+  "word": "festival",
+  "cn": "节日",
+  "phonetic": "/ˈfestɪvl/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 15,
+  "word": "Spring Festival",
+  "cn": "春节",
+  "phonetic": "/sprɪŋ ˈfestɪvl/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 15,
+  "word": "January",
+  "cn": "—月",
+  "phonetic": "/ˈdʒænjuəri/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 15,
+  "word": "February",
+  "cn": "二月",
+  "phonetic": "/ˈfebruəri/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 15,
+  "word": "call",
+  "cn": "叫作，称作",
+  "phonetic": "/kɔːl/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 15,
+  "word": "Chinese New Year",
+  "cn": "中国农历新年",
+  "phonetic": "/ˌtʃaɪˈniːz njuː jɪə(r)/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 15,
+  "word": "get together",
+  "cn": "聚会，联欢",
+  "phonetic": "/ˈɡet təɡeðə(r)/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 15,
+  "word": "jiaozi",
+  "cn": "饺子",
+  "phonetic": ""
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 15,
+  "word": "Dragon Boat Festival",
+  "cn": "端午节",
+  "phonetic": "/ˈdræɡən bəʊt ˈfestɪvl/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 15,
+  "word": "May",
+  "cn": "五月",
+  "phonetic": "/meɪ/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 15,
+  "word": "June",
+  "cn": "六月",
+  "phonetic": "/dʒuːn/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 15,
+  "word": "dragon boat race",
+  "cn": "赛龙舟",
+  "phonetic": "/ˈdræɡən bəʊt reɪs/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 15,
+  "word": "place",
+  "cn": "地方，地点",
+  "phonetic": "/pleɪs/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 15,
+  "word": "rice dumpling",
+  "cn": "粽子",
+  "phonetic": "/raɪs ˈdʌmplɪŋ/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 15,
+  "word": "Mid-Autumn Festival",
+  "cn": "中秋节",
+  "phonetic": "/mɪd ˈɔːtəm ˈfestɪvl/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 15,
+  "word": "September",
+  "cn": "九月",
+  "phonetic": "/sepˈtembə(r)/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 15,
+  "word": "October",
+  "cn": "十月",
+  "phonetic": "/ɒkˈtəʊbə(r)/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 15,
+  "word": "moon cake",
+  "cn": "月饼",
+  "phonetic": "/muːn keɪk/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 15,
+  "word": "Double Ninth Festival(Chongyang Festival)",
+  "cn": "重阳节",
+  "phonetic": ""
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 15,
+  "word": "November",
+  "cn": "十一月",
+  "phonetic": "/nəʊˈvembə(r)/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 15,
+  "word": "old",
+  "cn": "（人）……岁的，（事物）存在……久的；老的；年纪大的；旧的",
+  "phonetic": "/əʊld/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 15,
+  "word": "mountain",
+  "cn": "高山；山岳；山；山脉",
+  "phonetic": "/ˈmaʊntən/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 15,
+  "word": "rice cake",
+  "cn": "重阳糕",
+  "phonetic": "/raɪs keɪk/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 15,
+  "word": "Mother's Day",
+  "cn": "母亲节",
+  "phonetic": "/ˈmʌðəz deɪ/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 15,
+  "word": "Father's Day",
+  "cn": "父亲节",
+  "phonetic": "/ˈfɑːðəz deɪ/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 15,
+  "word": "favourite",
+  "cn": "特别喜爱的，最喜欢的",
+  "phonetic": "/ˈfeɪvərɪt/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 16,
+  "word": "birthday",
+  "cn": "生日",
+  "phonetic": "/ˈbɜːθdeɪ/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 16,
+  "word": "eleventh",
+  "cn": "第十一",
+  "phonetic": "/ɪˈlevnθ/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 16,
+  "word": "eighth",
+  "cn": "第八",
+  "phonetic": "/eɪtθ/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 16,
+  "word": "April",
+  "cn": "四月",
+  "phonetic": "/ˈeɪprəl/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 16,
+  "word": "together",
+  "cn": "一起；在一起；共同",
+  "phonetic": "/təˈɡeðə(r)/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 16,
+  "word": "March",
+  "cn": "三月",
+  "phonetic": "/mɑːtʃ/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 16,
+  "word": "July",
+  "cn": "七月",
+  "phonetic": "/dʒuˈlaɪ/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 16,
+  "word": "August",
+  "cn": "八月",
+  "phonetic": "/ˈɔːɡəst/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 16,
+  "word": "December",
+  "cn": "十二月",
+  "phonetic": "/dɪˈsembə(r)/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 16,
+  "word": "hero",
+  "cn": "偶像；英雄；男主角",
+  "phonetic": "/ˈhɪroʊ/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 16,
+  "word": "play",
+  "cn": "戏剧；剧本",
+  "phonetic": "/pleɪ/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 16,
+  "word": "number",
+  "cn": "数字;数;数量;编号",
+  "phonetic": "/ˈnʌmbər/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 16,
+  "word": "password",
+  "cn": "密码",
+  "phonetic": "/ˈpæswɜ:rd/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 16,
+  "word": "answer",
+  "cn": "答案",
+  "phonetic": "/ˈɑːnsə(r)/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 16,
+  "word": "fourth",
+  "cn": "第四（的）",
+  "phonetic": "/fɔːθ/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 16,
+  "word": "start",
+  "cn": "开始，着手；出发；开头",
+  "phonetic": "/stɑːt/"
+ },
+ {
+  "book": "5Bv1",
+  "grade": 5,
+  "unit": 16,
+  "word": "fight",
+  "cn": "争论；打仗，打架",
+  "phonetic": "/faɪt/"
+ }
+]

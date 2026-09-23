@@ -1,0 +1,930 @@
+[
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 9,
+  "word": "mouse",
+  "cn": "老鼠",
+  "phonetic": "/maʊs/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 9,
+  "word": "large",
+  "cn": "大的，巨大的；大型号的",
+  "phonetic": "/lɑːrdʒ/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 9,
+  "word": "strong",
+  "cn": "强壮的",
+  "phonetic": "/strɒŋ/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 9,
+  "word": "walk by",
+  "cn": "走过，路过",
+  "phonetic": "/wɔːk baɪ/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 9,
+  "word": "wake ... up",
+  "cn": "吵醒，叫醒",
+  "phonetic": "/weɪk ʌp/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 9,
+  "word": "some day",
+  "cn": "总有一天；将来有一天；来日",
+  "phonetic": "/ˈsʌm deɪ/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 9,
+  "word": "quietly",
+  "cn": "小声地；安静地，寂静地",
+  "phonetic": "/ˈkwaɪətlɪ/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 9,
+  "word": "weak",
+  "cn": "虚弱的；无力的；弱的，软弱的",
+  "phonetic": "/wiːk/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 9,
+  "word": "loudly",
+  "cn": "大声地",
+  "phonetic": "/ˈlaʊdli/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 9,
+  "word": "let ... go",
+  "cn": "释放，放开",
+  "phonetic": "/let gəʊ/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 9,
+  "word": "the next day",
+  "cn": "第二天",
+  "phonetic": "/ðə nekst deɪ/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 9,
+  "word": "net",
+  "cn": "网",
+  "phonetic": "/net/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 9,
+  "word": "bite",
+  "cn": "咬；叮",
+  "phonetic": "/baɪt/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 9,
+  "word": "sharp",
+  "cn": "锋利的，尖的；急转的",
+  "phonetic": "/ʃɑ:rp/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 9,
+  "word": "sadly",
+  "cn": "难过地，伤心地；令人遗憾地，不幸地",
+  "phonetic": "/ˈsædli/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 9,
+  "word": "just then",
+  "cn": "就在那时",
+  "phonetic": "/dʒʌst ðen/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 9,
+  "word": "soon",
+  "cn": "不久，很快，马上",
+  "phonetic": "/suːn/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 9,
+  "word": "happily",
+  "cn": "快乐地;高兴地;满足地",
+  "phonetic": "/ˈhæpɪli/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 9,
+  "word": "from then on",
+  "cn": "从那时起",
+  "phonetic": "/frəm ðen ɒn/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 9,
+  "word": "cheer",
+  "cn": "加油；欢呼；欢呼声，喝彩声",
+  "phonetic": "/tʃɪə(r)/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 9,
+  "word": "hit",
+  "cn": "到达；击中；碰撞",
+  "phonetic": "/hɪt/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 9,
+  "word": "deep",
+  "cn": "深的；厚的；深深地；在深处",
+  "phonetic": "/diːp/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 9,
+  "word": "reach",
+  "cn": "实现；达到；够得着",
+  "phonetic": "/ritʃ/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 9,
+  "word": "quickly",
+  "cn": "迅速地，很快地，飞快地",
+  "phonetic": "/ˈkwɪkli/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 9,
+  "word": "pour ... into",
+  "cn": "把……倒入",
+  "phonetic": "/pɔː ˈɪntʊ; ˈɪntə/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 10,
+  "word": "habit",
+  "cn": "习惯",
+  "phonetic": "/ˈhæbɪt/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 10,
+  "word": "never",
+  "cn": "从不，绝不",
+  "phonetic": "/ˈnevə(r)/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 10,
+  "word": "late",
+  "cn": "晚；迟",
+  "phonetic": "/leɪt/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 10,
+  "word": "put ... in order",
+  "cn": "把……整理得井井有条",
+  "phonetic": "/pʊt ɪn ˈɔːdə/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 10,
+  "word": "finish",
+  "cn": "完成；结束；做好",
+  "phonetic": "/ˈfɪnɪʃ/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 10,
+  "word": "tidy",
+  "cn": "整齐的，整洁的，爱整洁的",
+  "phonetic": "/ˈtaɪdi/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 10,
+  "word": "bad",
+  "cn": "邪恶的；坏的；有害的；糟糕的",
+  "phonetic": "/bæd/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 10,
+  "word": "sleepy",
+  "cn": "困的；欲睡的；困倦的；瞌睡的",
+  "phonetic": "/ˈsliːpi/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 10,
+  "word": "last night",
+  "cn": "昨夜",
+  "phonetic": "/lɑːst naɪt/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 10,
+  "word": "fast",
+  "cn": "快的，迅速的；快",
+  "phonetic": "/fɑːst/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 10,
+  "word": "go into",
+  "cn": "走进，走入",
+  "phonetic": "/ɡəʊ ˈɪntə/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 10,
+  "word": "slowly",
+  "cn": "慢速地；缓慢地",
+  "phonetic": "/ˈsloʊli/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 10,
+  "word": "badly",
+  "cn": "差地，不好；严重地",
+  "phonetic": "/ˈbædli/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 11,
+  "word": "healthy",
+  "cn": "健康的",
+  "phonetic": "/ˈhelθi/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 11,
+  "word": "diet",
+  "cn": "日常饮食；规定饮食",
+  "phonetic": "/ˈdaɪɪt/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 11,
+  "word": "a little",
+  "cn": "一点，少许",
+  "phonetic": "/ə ˈlɪtl/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 11,
+  "word": "a few",
+  "cn": "一些，几个，少量",
+  "phonetic": "/ə fjuː/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 11,
+  "word": "at a time",
+  "cn": "一次；每次，依次；在某时",
+  "phonetic": "/æt ə taɪm/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 11,
+  "word": "cola",
+  "cn": "可乐",
+  "phonetic": "/ˈkəʊlə/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 11,
+  "word": "need",
+  "cn": "需要",
+  "phonetic": "/niːd/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 12,
+  "word": "road",
+  "cn": "公路，道路",
+  "phonetic": "/rəʊd/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 12,
+  "word": "safety",
+  "cn": "安全，平安，保险",
+  "phonetic": "/ˈseɪfti/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 12,
+  "word": "cross",
+  "cn": "穿过（马路等）；渡过（河）",
+  "phonetic": "/krɒs/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 12,
+  "word": "safely",
+  "cn": "安全地",
+  "phonetic": "/ˈseflɪ/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 12,
+  "word": "must",
+  "cn": "必须，应该；一定",
+  "phonetic": "/mʌst , məst/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 12,
+  "word": "zebra crossing",
+  "cn": "斑马线",
+  "phonetic": "/ˌzebrə ˈkrɒsɪŋ/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 12,
+  "word": "safe",
+  "cn": "安全的",
+  "phonetic": "/seɪf/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 12,
+  "word": "pavement",
+  "cn": "人行道",
+  "phonetic": "/ˈpevmənt/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 12,
+  "word": "look out for",
+  "cn": "当心，堤防",
+  "phonetic": "/lʊk aʊt fɔː(r)/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 12,
+  "word": "easily",
+  "cn": "容易地，轻易地，不费力地",
+  "phonetic": "/ˈizəli/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 12,
+  "word": "follow",
+  "cn": "遵守",
+  "phonetic": "/ˈfɒləʊ/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 12,
+  "word": "rule",
+  "cn": "规则，规章；建议",
+  "phonetic": "/ruːl/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 12,
+  "word": "stay",
+  "cn": "暂住；逗留，停留",
+  "phonetic": "/steɪ/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 12,
+  "word": "light",
+  "cn": "电灯；灯；灯光",
+  "phonetic": "/laɪt/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 13,
+  "word": "Children's Day",
+  "cn": "儿童节",
+  "phonetic": "/ˈtʃɪldrənz deɪ/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 13,
+  "word": "clown",
+  "cn": "小丑",
+  "phonetic": "/klaʊn/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 13,
+  "word": "appear",
+  "cn": "出现；看来；好像",
+  "phonetic": "/əˈpɪr/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 13,
+  "word": "balloon",
+  "cn": "气球；热气球",
+  "phonetic": "/bəˈluːn/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 13,
+  "word": "begin",
+  "cn": "开始",
+  "phonetic": "/bɪˈɡɪn/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 13,
+  "word": "put on",
+  "cn": "上演，表演",
+  "phonetic": "/ˈpʊt ɒn/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 13,
+  "word": "end",
+  "cn": "结束；尽头；结尾",
+  "phonetic": "/end/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 14,
+  "word": "country",
+  "cn": "国家；农村",
+  "phonetic": "/ˈkʌntri/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 14,
+  "word": "will",
+  "cn": "（谈及将来）将要；会",
+  "phonetic": "/wɪl/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 14,
+  "word": "learn",
+  "cn": "学；学习；学会",
+  "phonetic": "/lɜːn/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 14,
+  "word": "Australia",
+  "cn": "澳大利亚",
+  "phonetic": ""
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 14,
+  "word": "find out",
+  "cn": "了解（到）；弄清；发现，找出，查明;查出",
+  "phonetic": "/faɪnd aʊt/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 14,
+  "word": "magazine",
+  "cn": "杂志",
+  "phonetic": "/ˌmæɡəˈziːn/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 14,
+  "word": "kangaroo",
+  "cn": "袋鼠",
+  "phonetic": "/ˌkæŋɡəˈruː/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 14,
+  "word": "koala",
+  "cn": "考拉",
+  "phonetic": "/kəʊˈɑːlə/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 14,
+  "word": "sport-lover",
+  "cn": "运动爱好者",
+  "phonetic": ""
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 14,
+  "word": "Australian football",
+  "cn": "澳式橄榄球",
+  "phonetic": "/ɒˈstreɪliən ˈfʊtbɔːl/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 14,
+  "word": "exciting",
+  "cn": "使人激动的，激动人心的",
+  "phonetic": "/ɪkˈsaɪtɪŋ/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 14,
+  "word": "Sydney",
+  "cn": "悉尼",
+  "phonetic": "/ˈsɪdni/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 14,
+  "word": "welcome",
+  "cn": "欢迎；受欢迎的",
+  "phonetic": "/ˈwelkəm/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 14,
+  "word": "visitor",
+  "cn": "游客；访问者；来客",
+  "phonetic": "/ˈvɪzɪtə(r)/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 14,
+  "word": "for example",
+  "cn": "例如",
+  "phonetic": "/fɔː(r) ɪɡˈzɑːmpl/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 14,
+  "word": "London",
+  "cn": "伦敦",
+  "phonetic": "/ˈlʌndən/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 14,
+  "word": "Oxford",
+  "cn": "（英国城市）牛津",
+  "phonetic": "/'ɑ:ksfərd/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 14,
+  "word": "like",
+  "cn": "像，如同",
+  "phonetic": "/laɪk/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 14,
+  "word": "Big Ben",
+  "cn": "大本钟",
+  "phonetic": "/bɪɡ ben/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 14,
+  "word": "London Eye",
+  "cn": "（伦敦的摩天轮）伦敦眼",
+  "phonetic": "/ˈlʌndən aɪ/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 14,
+  "word": "Tower Bridge",
+  "cn": "（伦敦）塔桥",
+  "phonetic": "/ˈtaʊə(r) brɪdʒ/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 14,
+  "word": "What do you think?",
+  "cn": "你觉得呢？",
+  "phonetic": ""
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 14,
+  "word": "month",
+  "cn": "月份，月",
+  "phonetic": "/mʌnθ/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 15,
+  "word": "summer holiday",
+  "cn": "暑假",
+  "phonetic": "/ˈsʌmə(r) ˈhɒlədeɪ/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 15,
+  "word": "go back to",
+  "cn": "回去",
+  "phonetic": "/ɡəʊ bæk tu/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 15,
+  "word": "sound",
+  "cn": "听起来好像;声音",
+  "phonetic": "/saʊnd/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 15,
+  "word": "Disneyland",
+  "cn": "迪斯尼乐园",
+  "phonetic": "/'dɪznɪlænd/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 15,
+  "word": "Ocean Park",
+  "cn": "（香港）海洋公园",
+  "phonetic": "/ˈəʊʃn pɑːk/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 15,
+  "word": "Taipei",
+  "cn": "台北",
+  "phonetic": "/ˈtaɪˈpe, -ˈbe/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 15,
+  "word": "photo",
+  "cn": "照片：相片",
+  "phonetic": "/ˈfəʊtəʊ/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 15,
+  "word": "travel",
+  "cn": "（尤指长途）旅行",
+  "phonetic": "/ˈtrævl/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 15,
+  "word": "traveller",
+  "cn": "旅行者",
+  "phonetic": "/ˈtræv(ə)lər/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 15,
+  "word": "travel around the world",
+  "cn": "环游世界",
+  "phonetic": "/ˈtrævl əˈraʊnd ðə wɜːld/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 15,
+  "word": "different",
+  "cn": "不同的",
+  "phonetic": "/ˈdɪfrənt/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 16,
+  "word": "dream",
+  "cn": "梦；梦想；愿望",
+  "phonetic": "/driːm/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 16,
+  "word": "future",
+  "cn": "未来，将来",
+  "phonetic": "/ˈfjuːtʃə(r)/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 16,
+  "word": "care about",
+  "cn": "关心，关怀，在乎",
+  "phonetic": "/keə(r) əˈbaʊt/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 16,
+  "word": "tooth",
+  "cn": "牙齿",
+  "phonetic": "/tuːθ/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 16,
+  "word": "astronaut",
+  "cn": "宇航员；航天员",
+  "phonetic": "/ˈæstrəˌnɔt/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 16,
+  "word": "spaceship",
+  "cn": "宇宙飞船",
+  "phonetic": "/ˈspeɪsʃɪp/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 16,
+  "word": "football player",
+  "cn": "足球运动员",
+  "phonetic": "/ˈfʊtbɔːl ˈpleɪə(r)/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 16,
+  "word": "World Cup",
+  "cn": "世界杯",
+  "phonetic": "/wɜːld kʌp/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 16,
+  "word": "dancer",
+  "cn": "跳舞者;舞蹈演员",
+  "phonetic": "/ˈdɑːnsə(r)/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 16,
+  "word": "pianist",
+  "cn": "钢琴演奏家",
+  "phonetic": "/piˈænɪst/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 16,
+  "word": "come true",
+  "cn": "变为现实，成为事实",
+  "phonetic": "/kʌm truː/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 16,
+  "word": "take care of",
+  "cn": "爱护；照顾；照料",
+  "phonetic": "/teɪk keə(r) ɒv/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 16,
+  "word": "scientist",
+  "cn": "科学家",
+  "phonetic": "/ˈsaɪəntɪst/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 16,
+  "word": "brave",
+  "cn": "勇敢的；无畏的",
+  "phonetic": "/breɪv/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 16,
+  "word": "artist",
+  "cn": "画家；艺术家",
+  "phonetic": "/ˈɑːtɪst/"
+ },
+ {
+  "book": "6Bv1",
+  "grade": 6,
+  "unit": 16,
+  "word": "paint",
+  "cn": "用颜料绘画；画画",
+  "phonetic": "/peɪnt/"
+ }
+]

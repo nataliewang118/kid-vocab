@@ -17,6 +17,10 @@ for f in files:
     if not m:
         sys.exit("文件名看不出年级：%s（要长成 words-yl5a.json 这样）" % f.name)
     fallback_grade = int(m.group(1))
+    # 每册来源的标记（app 设置页按它开关整册）。显式 book 优先，否则用 term 推（3/4 年级），
+    # 再否则用文件名里的字母（words-yl5a.json -> 5A）。旧版补的册自带 book，如 5Bv1。
+    m2 = re.search(r"words-yl\d+([a-z])", f.stem)
+    file_letter = m2.group(1).upper() if m2 else ""
     for w in json.load(io.open(f, encoding="utf-8")):
         word = (w.get("word") or "").strip()
         cn = (w.get("cn") or "").strip()
@@ -25,6 +29,11 @@ for f in files:
         key = word.lower()
         grade = int(w.get("grade") or fallback_grade)
         ph = (w.get("phonetic") or "").strip()
+        if w.get("term"):
+            suf = "A" if int(w["term"]) == 1 else "B"
+        else:
+            suf = file_letter or "A"
+        book = (w.get("book") or "").strip() or (str(grade) + suf)
         old = best.get(key)
         if old:
             if old["grade"] <= grade:
@@ -32,7 +41,7 @@ for f in files:
                     old["phonetic"] = ph          # 低年级那份没音标，拿高年级的补上
                 continue
         best[key] = {"unit": w.get("unit") or 0, "word": word,
-                     "cn": cn, "phonetic": ph, "grade": grade}
+                     "cn": cn, "phonetic": ph, "grade": grade, "book": book}
 
 words = sorted(best.values(), key=lambda w: (w["grade"], w["unit"], w["word"].lower()))
 blob = ("var WORDS = " + json.dumps(words, ensure_ascii=False, separators=(",", ":")) +
