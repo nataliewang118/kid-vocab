@@ -298,19 +298,19 @@ renderHome();
 t('没 zoo 的老存档首页不抛', !!$('pet-host').innerHTML);
 t('老存档补出音效开关', S.cfg.sfx===true);
 
-/* ---------- 四、连对鼓励 ---------- */
-t('2 连对不庆祝', comboHit(0)===0 && comboHit(1)===0 && comboHit(2)===0);
-t('3/5/8/12/20 各自一级', [3,5,8,12,20].map(comboHit).join(',')==='1,2,3,4,5');
-t('中间数不庆祝', [4,6,7,9,11,13,19].every(function(n){ return comboHit(n)===0; }));
-t('21 不庆祝(没到下一档)', comboHit(21)===0);
-t('20 之后每 10 一次', comboHit(30)===6 && comboHit(40)===6 && comboHit(50)===6);
-t('里程碑文案都在', COMBO_MARKS.every(function(n){ return !!COMBO_WORD[n]; }));
-t('超出表格的档位有兜底文案', comboWord(30,6).indexOf('30')>=0);
+/* ---------- 四、答对鼓励 ---------- */
+t('10 题以下不庆祝', praiseHit(0)===0 && praiseHit(9)===0);
+t('10/20/30/40/50 各自一级', [10,20,30,40,50].map(praiseHit).join(',')==='1,2,3,4,5');
+t('中间数不庆祝', [11,15,19,21,25,39,49].every(function(n){ return praiseHit(n)===0; }));
+t('51 不庆祝(没到下一档)', praiseHit(51)===0);
+t('50 之后每 10 一次', praiseHit(60)===6 && praiseHit(70)===6 && praiseHit(80)===6);
+t('里程碑文案都在', PRAISE_MARKS.every(function(n){ return !!PRAISE_WORD[n]; }));
+t('超出表格的档位有兜底文案', praiseWord(60,6).indexOf('60')>=0);
 
-// 答对要冒庆祝字，答错要把连对清零
+// 答对计数只增不减：答对要冒庆祝字，答错不清任何计数
 S = blank(); S.cfg.sfx = false;            // 测试里不出声
 S.app.todayDate = todayStr();
-Q = { pool:[], i:0, total:0, correct:0, wrong:0, combo:0, best:0,
+Q = { pool:[], i:0, total:0, correct:0, wrong:0,
       endAt: Date.now()+300000, total_ms:300000, locked:false, served:{} };
 nextQ();
 function pick(correct){
@@ -322,14 +322,14 @@ function pick(correct){
 $('q-mark').classList.remove('on'); $('q-mark').textContent = '';
 pick(true);
 t('答对没有「其实是蒙的」了', document.querySelectorAll('.fb .fuzzy').length===0);
-t('1 连对不冒字', !$('q-mark').classList.contains('on'));
-pick(true);
-pick(true);
-t('3 连对冒庆祝字', $('q-mark').textContent==='连破 3 案！' && $('q-mark').classList.contains('on'));
-t('3 连对有音效级别', comboHit(3)===1);
+t('答对 1 题不冒字', !$('q-mark').classList.contains('on'));
+for(var pk=0; pk<8; pk++) pick(true);     // 累到 9 题
+t('答对 9 题还没到里程碑', Q.correct===9 && !$('q-mark').classList.contains('on'));
+pick(true);                                 // 第 10 题
+t('答对 10 题冒庆祝字', Q.correct===10 && $('q-mark').classList.contains('on'));
+t('庆祝字是 10 题那档', praiseHit(10)===1);
 pick(false);
-t('答错清零连对', Q.combo===0);
-t('最长连对留了记录', Q.best===3);
+t('答错不清答对计数', Q.correct===10 && $('q-combo').textContent==='10');
 t('答错的词排到明天', S.uw[Q.cur.id].nextReview - Date.now() > 86000e3);
 
 /* ---------- 五、悬案簿 ---------- */

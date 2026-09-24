@@ -222,7 +222,7 @@ body{
 .fb .msg.bad{color:var(--bad)}
 .fb .sub{font-size:15px;color:var(--muted);margin-top:7px;line-height:1.55}
 
-/* 连对里程碑：盖在题目上方的庆祝字 */
+/* 答对里程碑：盖在题目上方的庆祝字 */
 /* 盖在选项上也看得清，所以给它垫个底 */
 .mark{
   position:fixed;left:0;right:0;top:32%;text-align:center;pointer-events:none;z-index:9;
@@ -360,7 +360,7 @@ textarea{width:100%;height:110px;background:var(--night);color:var(--ink);border
   <div class="wrap">
     <div class="qbar">
       <div class="timer" id="q-timer">5:00</div>
-      <div class="combo">连对 <b id="q-combo">0</b></div>
+      <div class="combo">答对 <b id="q-combo">0</b></div>
       <button class="icon-btn qx" id="btn-quit">✕</button>
     </div>
     <div class="timebar"><i id="q-timebar" style="width:100%"></i></div>
@@ -388,7 +388,6 @@ textarea{width:100%;height:110px;background:var(--night);color:var(--ink);border
     <div class="rgrid">
       <div class="stat ok"><div class="num" id="r-correct">0</div><div class="lbl">查实线索</div></div>
       <div class="stat"><div class="num" id="r-wrong">0</div><div class="lbl">假线索</div></div>
-      <div class="stat hot"><div class="num" id="r-best">0</div><div class="lbl">最长连对</div></div>
     </div>
     <div class="speed-board" id="r-speed">
       <div class="speed-head">🏆 神探最快结案 TOP5</div>
@@ -438,7 +437,7 @@ textarea{width:100%;height:110px;background:var(--night);color:var(--ink);border
         <div class="stepper"><button data-cfg="newLimit" data-d="-1">−</button><b id="cfg-new">8</b><button data-cfg="newLimit" data-d="1">+</button></div>
       </div>
       <div class="ctl">
-        <div class="k">音效<small>答对"叮"一声，连对里程碑更隆重</small></div>
+        <div class="k">音效<small>答对"叮"一声，答对越多越隆重</small></div>
         <button class="tog" id="cfg-sfx">开</button>
       </div>
       <div class="bkbox">
@@ -990,7 +989,7 @@ function startChallenge(){
   if(!ready.length) return;
   Q = {
     pool: shuffle(ready), i:0, total: ready.length,
-    correct:0, wrong:0, combo:0, best:0, broke:0,
+    correct:0, wrong:0, broke:0,
     chal:true, endAt: Infinity, total_ms: 1,
     locked:false, served:{}, shownAt:0
   };
@@ -1019,7 +1018,7 @@ function startDrill(kind){
   if(!list.length) return;
   Q = {
     pool: shuffle(list), i:0, total: list.length,
-    correct:0, wrong:0, combo:0, best:0, gain:0,
+    correct:0, wrong:0, gain:0,
     drill:true, kind:kind,
     endAt: Date.now() + S.cfg.minutes*60e3, total_ms: S.cfg.minutes*60e3,
     locked:false, served:{}, shownAt:0
@@ -1192,24 +1191,26 @@ function buildSentPool(exclude){ return buildPool(exclude).filter(hasSent); }
 // 中文题干：多义释义只取第一个义项（"苹果；苹果树" → "苹果"），四个选项才不会都像对的
 function cnPrompt(w){ return String(w.cn || '').split(/[；;]/)[0].trim(); }
 
-/* ===================== 连对鼓励 ===================== */
-var COMBO_MARKS = [3, 5, 8, 12, 20];      // 撞到这些数就庆祝一次，之后每 10 个再来
-var COMBO_WORD = {
-  3:  '连破 3 案！',
-  5:  '5 连对，手正热！',
-  8:  '8 连对，线索收割机！',
-  12: '12 连对，名侦探出手！',
-  20: '20 连对，无人能挡！'
+/* ===================== 答对鼓励 ===================== */
+// 里程碑按**本轮答对数**计（不是连对）：答对数只增不减，撞到就庆祝一次。
+// 之前按连对算，孩子连对一多就不敢碰生词、一错就崩（"连对都白对了"），所以改成只涨不掉的计数。
+var PRAISE_MARKS = [10, 20, 30, 40, 50];      // 撞到这些数就庆祝一次，之后每 10 个再来
+var PRAISE_WORD = {
+  10: '答对 10 题，手热起来了！',
+  20: '答对 20 题，线索哗哗来！',
+  30: '答对 30 题，名侦探出手！',
+  40: '答对 40 题，停不下来了！',
+  50: '答对 50 题，无人能挡！'
 };
 // 这一击撞到里程碑了吗？没撞到返回 0，撞到返回级别（1 起，越大越隆重）
-function comboHit(n){
-  if(n < COMBO_MARKS[0]) return 0;
-  var i = COMBO_MARKS.indexOf(n);
+function praiseHit(n){
+  if(n < PRAISE_MARKS[0]) return 0;
+  var i = PRAISE_MARKS.indexOf(n);
   if(i >= 0) return i + 1;
-  return (n > COMBO_MARKS[COMBO_MARKS.length-1] && n % 10 === 0) ? COMBO_MARKS.length + 1 : 0;
+  return (n > PRAISE_MARKS[PRAISE_MARKS.length-1] && n % 10 === 0) ? PRAISE_MARKS.length + 1 : 0;
 }
-function comboWord(n, lv){
-  return (lv > 0 && lv <= COMBO_MARKS.length) ? COMBO_WORD[n] : n + ' 连对，停不下来了！';
+function praiseWord(n, lv){
+  return (lv > 0 && lv <= PRAISE_MARKS.length) ? PRAISE_WORD[n] : n + ' 题，停不下来了！';
 }
 function showMark(txt){
   var el = $('q-mark');
@@ -1323,7 +1324,7 @@ function startSession(dir){
   if(!pool.length) return;
   Q = {
     pool: pool, i: 0, total: pool.length, dir: dir,
-    correct:0, wrong:0, combo:0, best:0,
+    correct:0, wrong:0,
     endAt: Date.now() + S.cfg.minutes*60e3,
     total_ms: S.cfg.minutes*60e3,
     locked:false, served:{},   // served：本轮出过的词，补池时排除掉
@@ -1361,7 +1362,7 @@ function nextQ(){
   var cn2en = Q.dir === 'cn2en', sent = Q.dir === 'sent';
   Q.served[w.id] = 1;
   Q.cur = w; Q.locked = false; Q.answered = false;
-  $('q-combo').textContent = Q.combo;
+  $('q-combo').textContent = Q.correct;
   $('q-word').textContent = sent ? SENTS[w.word.toLowerCase()] : (cn2en ? cnPrompt(w) : w.word);
   $('q-word').classList.toggle('sent', sent);
   // 中译英 / 句子关都不能给音标——那等于把答案递到她手上
@@ -1421,8 +1422,8 @@ function answer(btn, ok, chosen){
   if(ok){
     Q.locked = true;
     btn.classList.add('right');
-    Q.correct++; Q.combo++; if(Q.combo>Q.best) Q.best = Q.combo;
-    $('q-combo').textContent = Q.combo;
+    Q.correct++;
+    $('q-combo').textContent = Q.correct;
 
     // 反应速度：只拿答对的题当样本（答错慢是应该的）。
     // 顺序很要紧——先跟**旧**基线比再更新基线，不然这一题会把自己算进去，越慢越测不出慢。
@@ -1476,9 +1477,9 @@ function answer(btn, ok, chosen){
     if(justBroke && Q.chal){ Q.broke = (Q.broke||0) + 1; S.app.todayClues += 1; }
     save();
 
-    // 连对撞到里程碑就庆祝一下：字越大越隆重，音也跟着升级
-    var lv = comboHit(Q.combo);
-    if(lv){ showMark(comboWord(Q.combo, lv)); sfxCombo(lv); }
+    // 答对撞到里程碑就庆祝一下：字越大越隆重，音也跟着升级
+    var lv = praiseHit(Q.correct);
+    if(lv){ showMark(praiseWord(Q.correct, lv)); sfxCombo(lv); }
     else if(justBroke || (before===4 && r.stage===5)){ sfxStable(); }
     else sfxRight();
 
@@ -1488,8 +1489,7 @@ function answer(btn, ok, chosen){
     setTimeout(advance, lv ? 1900 : 1200);
   }else{
     btn.classList.add('wrong');
-    Q.wrong++; Q.combo = 0;
-    $('q-combo').textContent = 0;
+    Q.wrong++;
     // 标出正确项
     var cur = Q.cur;
     $('q-opts').querySelectorAll('.opt').forEach(function(b){
@@ -1580,7 +1580,6 @@ function finish(){
   $('r-title').textContent = done===0 ? '还没开始呢' : (Q0.wrong===0 && done>4 ? '破案顺利！' : '收工！');
   $('r-correct').textContent = Q0.correct;
   $('r-wrong').textContent   = Q0.wrong;
-  $('r-best').textContent    = Q0.best;
 
   var f = formOf();
   $('r-clue').textContent = '今天一共拿到 ' + S.app.todayClues + ' 条线索 · ' + FORM_NAME[f-1];
